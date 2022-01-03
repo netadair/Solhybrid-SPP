@@ -1,0 +1,407 @@
+Kurzbezeichnung	Text	Hilfetext	Nummer	Typ	Einstellwert	Initial	Minimum	Maximum	Variablen_Typ	Passwort	Einheit	Vorkomma	Nachkomma	Not locked by access code	Not delete by P66 function	Bitfield	Non-Volatile	FW_Kommentar
+NULL	Kein Parameter	leer	0	Zahl	Istwert	0	0	0	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	Keep standard callback for solalog
+UAC	Netzspannung	Aktueller Wert der Netzspannung	1	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+UZK	Zwischenkreisspannung	Spannung am Zwischenkreis	2	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+IAC	Netzstrom	Ins Netz eingespeister Strom	3	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	2	2	Nein	Nein	Nein	Nein	leer
+PAC	Leistung AC	Aktuell ins Netz eingespeiste Leistung	5	Zahl	Istwert	0	0	0	SHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+PDC	Leistung DC	Abgabeleistung des Solargenerators	6	Zahl	Istwert	0	0	0	USHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+ETA	Wirkungsgrad	Aktueller Wirkungsgrad des Wechselrichters	7	Zahl	Istwert	0	0	0	USHORT	PW0	Percent	2	1	Nein	Nein	Nein	Nein	leer
+ET	Energie Tag	Am Tag bisher ins Netz eingespeiste Energie	8	Zahl	Einstellwert	0	0	99999	ULONG	PW2	Kilowatt hour	2	3	Nein	Nein	Nein	Ja	leer
+EW	Energie Woche	In der Woche bisher ins Netz eingespeiste Energie, ab Montag bis heute	9	Zahl	Einstellwert	0	0	999	ULONG	PW2	Kilowatt hour	3	0	Nein	Nein	Nein	Ja	leer
+EM	Energie Monat	Im Monat bisher ins Netz eingespeiste Energie	10	Zahl	Einstellwert	0	0	9999	ULONG	PW2	Kilowatt hour	4	0	Nein	Nein	Nein	Ja	leer
+EJ	Energie Jahr	Im Jahr bisher ins Netz eingespeiste Energie	11	Zahl	Einstellwert	0	0	99999	ULONG	PW2	Kilowatt hour	5	0	Nein	Nein	Nein	Ja	leer
+EG	Energie gesamt	Insgesamt bisher eingespeiste Energie	12	Zahl	Istwert	0	0	0	ULONG	PW0	Kilowatt hour	6	0	Nein	Nein	Nein	Nein	leer
+WC	Warn Code Parameter	Warn Code Parameter	15	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Nein	leer
+UACLN	Netzspannung N	Netzspannung am Leiter N	16	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	1	Nein	Nein	Nein	Nein	leer
+DCPI	Cosinus Phi Istwert	Aktuell eingestellter Cosinus Phi	17	Zahl	Istwert	0	0	0	SHORT	PW0	Without	1	3	Nein	Nein	Nein	Nein	leer
+STINFO	Status Info	Status Information	18	Zahl	Istwert	0	0	0	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+AFIFS	AFI absolut RMS Fehlerstrom	leer	19	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	1	3	Nein	Nein	Nein	Nein	leer
+UAC1_2	Zweite Netzspannungsmessung des Controllers	Aktueller Wert der Netzspannung 2	20	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+PPV1	Leistung PV1	Abgabeleistung des Solargenerators PV1	21	Zahl	Istwert	0	0	0	USHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+PPV2	Leistung PV2	Abgabeleistung des Solargenerators PV2	22	Zahl	Istwert	0	0	0	USHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+TRINFO	Steuerwort Info	Steuerwort Info	23	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+ISOFI	Isolations-Fehlerstrom	Fehlerstrom der Isolationsmessung  während der Einschaltprüfung	24	Zahl	Istwert	0	0	0	SHORT	PW0	uAmpere	4	0	Nein	Nein	Nein	Nein	leer
+PWRMAX	Wirkleistung Max EMS	leer	25	Zahl	Einstellwert	0	0	5400	USHORT	PW0	Watt	4	0	Ja	Nein	Nein	Nein	leer
+UACPK	UAC Scheitelwert	Aktueller Scheitelwert der Netzspannung	26	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+EUROT	Eurobetrag heute	Energieleistung des Tages, umgerechnet in Euro	27	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW2	Euro	4	2	Nein	Nein	Nein	Ja	leer
+EUROG	Eurobetrag gesamt	Gesamtleistung bisher, umgerechnet in Euro	28	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW2	Euro	6	0	Nein	Nein	Nein	Ja	leer
+EKWH	Vergütung Euro pro kWh	Derzeit gültige Rückvergütung pro kW/h für ins Netz eingespeiste Energie	29	Zahl	Einstellwert	2874	0	65535	USHORT	PW1	Euro per kilowatt hour	1	4	Nein	Nein	Nein	Ja	leer
+STAT1	Geräte-Status 1	Interner Status des Geräts 1	30	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+STAT2	Geräte-Status 2	Interner Status des Geräts 2	31	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+STATUS	Statustext	Darstellung des Gerätestatus im Klartext	32	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+IACN	Netzstrom Phase N	Strom der Phase N	34	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	2	2	Nein	Nein	Nein	Nein	leer
+AFIFDCS	AFI absolut DC Fehlerstrom	leer	35	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	1	3	Nein	Nein	Nein	Nein	leer
+AFIFACS	AFI absolut AC RMS Fehlerstrom	leer	36	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	1	3	Nein	Nein	Nein	Nein	leer
+PW	Passwort	Passwortabfrage	37	Zahl	Istwert	0	0	10000	ULONG	PW0	Without	6	0	Ja	Nein	Nein	Nein	leer
+PSDF	Phaseshift F-Delta	Frequenzabweichung durch Phasen-Shift	38	Zahl	Istwert	0	0	0	USHORT	PW0	Hertz	2	2	Nein	Nein	Nein	Nein	leer
+FASM	Fehlerstrom AFI Sprung Max	leer	39	Zahl	Einstellwert	30	0	1000	USHORT	PW3	Ampere	1	3	Nein	Nein	Nein	Ja	Is not used anymore. Only to keep the interface structure
+OGFN	Off Nennfrequenz	leer	40	Zahl	Einstellwert	5000	4000	7000	USHORT	PW2	Hertz	2	2	Nein	Nein	Nein	Ja	leer
+PWML	Off PWM Limit	leer	41	Zahl	Einstellwert	990	50	1100	USHORT	PW4	Without	4	0	Nein	Nein	Nein	Ja	leer
+OGKPUAC	Off KP	leer	42	Zahl	Einstellwert	1	0	100	USHORT	PW2	Without	3	0	Nein	Nein	Nein	Ja	leer
+OGKIUAC	Off KI	leer	43	Zahl	Einstellwert	200	0	400	USHORT	PW2	Without	3	0	Nein	Nein	Nein	Ja	leer
+UPV1	PV Spannung 1	Spannung, die der PV-Generator liefert	44	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+UPV2	PV Spannung 2	Spannung, die der PV-Generator liefert	45	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+OGUACS	Off UAC	leer	46	Zahl	Einstellwert	230	0	250	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+OGUACR	Off Rampe	leer	47	Zahl	Einstellwert	40	1	200	SHORT	PW2	Without	3	0	Nein	Nein	Nein	Ja	leer
+FAM	Fehlerstrom AFI Max	leer	48	Zahl	Einstellwert	300	0	3000	USHORT	PW3	Ampere	1	3	Nein	Nein	Nein	Ja	leer
+TWR	Temperatur Wechselrichter	Temperatur Wechselrichter	49	Zahl	Istwert	0	0	0	SHORT	PW0	Degree celsius	2	0	Nein	Nein	Nein	Nein	leer
+UACMAXE	UAC Max Einschalt	Obere Einschaltschwelle UAC	50	Zahl	Einstellwert	246	230	280	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UACMAX	Spannungssteigerung langsam	Obere Spannungsschwelle für die Langzeit, gleitendes Mittelwertüberwachung, deren Filterzeit aus P348 verwendet wird.	51	Zahl	Einstellwert	253	230	280	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UACMINE	UAC Min Einschalt	Untere Einschaltschwelle UAC	52	Zahl	Einstellwert	188	80	230	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UACMIN	Spannungsrückgang langsam	Untere Spannungschwelle welche entweder mit der Zeitüberwachung aus P426 oder P348 überprüft wird.	53	Zahl	Einstellwert	100	80	230	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+OGUACMZ	Off Minimal Netz	leer	54	Zahl	Einstellwert	20	3	250	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+IACMAX	IAC Max	Ein Netzstrom oberhalb dieses Wertes führt zu einer Störabschaltung	55	Zahl	Einstellwert	1750	50	2200	USHORT	PW3	Ampere	2	2	Nein	Nein	Nein	Ja	leer
+SAC	Scheinleistung	Scheinleistung	56	Zahl	Istwert	0	0	0	USHORT	PW0	Volt-Ampere	4	0	Nein	Nein	Nein	Nein	leer
+QAC	Blindleistung	Blindleistung	57	Zahl	Istwert	0	0	0	SHORT	PW0	Volt-Ampere-reactiv	4	0	Nein	Nein	Nein	Nein	leer
+UZKMAXE	UZK Max Ein	Liegt die Zwischenkreisspannung über diesem Wert, wird nicht eingeschaltet	58	Zahl	Einstellwert	490	250	550	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UZKMAX	UZK Max	Eine Zwischenkreisspannung oberhalb dieses Wertes führt zu einer Störabschaltung	59	Zahl	Einstellwert	500	0	570	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UZKMINE	UZK Min Ein	Ist die Zwischenkreisspannung unter diesem Wert, wird eine Warnmeldung generiert	60	Zahl	Einstellwert	340	310	390	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UZKMIN	UZK Min	Eine Zwischenkreisspannung unterhalb dieses Wertes führt zu einer Störabschaltung	61	Zahl	Einstellwert	330	320	500	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UZKMF	UZK Max schnell	leer	62	Zahl	Einstellwert	510	0	570	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	schnelle Abschaltschwelle von UZK
+RESTWZ	Verbleibende Wartezeit	leer	63	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Second	5	0	Nein	Nein	Nein	Nein	verbleibende Wartezeit bis Start
+WZRS	Wartezeit Re-Start	Dauer bis zum Wiedereinschalten des Wechselrichters nach einer Störabschaltung	64	Zahl	Einstellwert	0	0	3600	USHORT	PW3	Second	3	0	Nein	Nein	Nein	Ja	leer
+EZWT	Wochentag	Aktueller Wochentag, 0 = Sonntag	65	Zahl	Einstellwert	0	0	6	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+STDW	Standardwerte setzen	Setzen der werkseitig vorgegebenen Standardwerte (für alle Parameter), Eingabe von 10	66	Zahl	Einstellwert	0	0	99	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Nein	leer
+AFIA	AFI Aktiv	Überwachung ob Phase L und N richtig angeschlossen sind.	67	Zahl	Einstellwert	7	0	200	USHORT	PW3	Without	3	0	Nein	Nein	Nein	Ja	leer
+ACDC	DC-Anteil im AC-Strom	Gleichstromanteil des Netzstroms	68	Zahl	Istwert	0	0	0	SHORT	PW0	Ampere	1	2	Nein	Nein	Nein	Nein	leer
+ACDCMAX	DC-Anteil im AC-Strom Max	Grenzwert für den DC-Anteil im Netzstrom	69	Zahl	Einstellwert	80	0	200	SHORT	PW3	Ampere	1	2	Nein	Nein	Nein	Ja	leer
+UPV1MIN	UPV1 Min	Eine Spannung des PV-Generators unterhalb dieses Wertes führt zu einer Störabschaltung	71	Zahl	Einstellwert	80	50	400	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UPV2MIN	UPV2 Min	Eine Spannung des PV-Generators unterhalb dieses Wertes führt zu einer Störabschaltung	72	Zahl	Einstellwert	80	50	400	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+IPV1M	Strom PV1 Max	Ein Strom des PV-Generators oberhalb dieses Wertes führt zu einer Störabschaltung	73	Zahl	Einstellwert	IPVMAX_PB2_4	0	IPVMAX_PB2_4	USHORT	PW2	Ampere	2	2	Nein	Nein	Nein	Ja	leer
+IPV2M	Strom PV2 Max	Ein Strom des PV-Generators oberhalb dieses Wertes führt zu einer Störabschaltung	74	Zahl	Einstellwert	IPVMAX_PB2_4	0	IPVMAX_PB2_4	USHORT	PW2	Ampere	2	2	Nein	Nein	Nein	Ja	leer
+DFMAXF	Frequenzabweichung nach oben Level 2	Obere Schwelle für die schnelle Netzfrequenzüberwachung.	75	Zahl	Einstellwert	150	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+DFMINF	Frequenzabweichung nach unten Level 2	Untere Schwelle für die schnelle Netzfrequenzüberwachung.	76	Zahl	Einstellwert	250	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+NF	Netzfrequenz	Frequenz des Netzes	77	Zahl	Istwert	0	0	0	USHORT	PW0	Hertz	2	2	Nein	Nein	Nein	Nein	leer
+UZKS	UZK Sollwert Wechselrichter	Sollwert für die Zwischenkreisspannung	78	Zahl	Einstellwert	400	330	450	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UZKSV	UZK Sollwert Wechselrichter Vorgabe	Angepasster Sollwert für die Zwischenkreisspannung	79	Zahl	Einstellwert	400	330	450	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+T1	Testvariable 1	Testvariable Nr.  1	80	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T2	Testvariable 2	Testvariable Nr.  2	81	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T3	Testvariable 3	Testvariable Nr.  3	82	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+BMPRED	BM-Zähler Leistungsreduktion	Betriebsminuten-Zähler Leistungsreduktion	83	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+PRED	Leistungsreduktion	Leistungsreduktion über Interface, nicht speicherbar	84	Zahl	Einstellwert	0	0	100	USHORT	PW3	Percent	2	0	Nein	Nein	Nein	Nein	Parameternummer darf nicht verändert werden da Broadcast-Parameter
+EGTR1	Gesamtenergie Tracker 1	Gesamtenergie Tracker 1	85	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW2	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+EGTR2	Gesamtenergie Tracker 2	Gesamtenergie Tracker 2	86	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW2	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+EH	Einschalt Hindernis	Hindernisgrund für das Einschalten	88	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+ASPP	Adresse SPP	SPP-Adresse des Geräts	89	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW1	Without	5	0	Nein	Nein	Nein	Ja	leer
+EZS	Sekunde	Aktuelle Zeit Sekunde	90	Zahl	Einstellwert	0	0	59	USHORT	PW0	Second	2	0	Nein	Nein	Nein	Nein	leer
+EZM	Minute	Aktuelle Zeit Minute	91	Zahl	Einstellwert	0	0	59	USHORT	PW0	Minute	2	0	Nein	Nein	Nein	Nein	leer
+EZH	Stunde	Aktuelle Zeit Stunde	92	Zahl	Einstellwert	0	0	23	USHORT	PW0	Hour	2	0	Nein	Nein	Nein	Nein	leer
+EZT	Tag	Aktuelles Datum Tag	93	Zahl	Einstellwert	1	1	31	USHORT	PW0	Day	2	0	Nein	Nein	Nein	Nein	leer
+EZMO	Monat	Aktuelles Datum Monat	94	Zahl	Einstellwert	1	1	12	USHORT	PW0	Month	2	0	Nein	Nein	Nein	Nein	leer
+EZJ	Jahr	Aktuelles Datum Jahr	95	Zahl	Einstellwert	2005	2004	2100	USHORT	PW0	Year	4	0	Nein	Nein	Nein	Nein	leer
+EZST	Zeit stellen	Parameter zum Ändern der Uhrzeit mit Hyperterminal oder SPP	96	Zahl	Einstellwert	0	0	20	USHORT	PW0	Without	2	0	Nein	Nein	Nein	Nein	leer
+DATUM	Datum	Eingestelltes Datum	97	Datum	Einstellwert	1012005	1012004	0x31122099	USHORT	PW0	Date	1	0	Nein	Nein	Nein	Nein	leer
+ZEIT	Zeit	Eingestellte Uhrzeit	98	Zeit	Einstellwert	0	0	0x235959	USHORT	PW0	Date	1	0	Nein	Nein	Nein	Nein	leer
+SPR	Sprache	Ausgewählte Sprache	99	Zahl	Einstellwert	0	0	(ANZAHL_SPRACHEN-1)	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+PCC	Portal Verbindungseinstellung	leer	100	Zahl	Einstellwert	0	0	(MPORT_CONN_DATA_TYPE_COUNT-1)	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+PPI	Portal Post-Intervall	leer	101	Zahl	Einstellwert	15	0	45	USHORT	PW4	Minute	2	0	Nein	Nein	Nein	Ja	leer
+UZK80ms	Zwischenkreisspannung 40ms	leer	102	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	3	0	Nein	Nein	Nein	Nein	leer
+DNSSERV	DNS Server	leer	103	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des 1. DNS Servers
+GATEW	Gateway	leer	104	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des Gateways
+SUBMASK	Subnetzmaske	leer	105	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige der Subnetzmaske
+UACR	Spannungsrückgang schnell	Untere Spannungsschwelle für die Netzüberwachung, welcher nach einer Zeitüberwachung nach P345 zu einer Abschaltung führt.	106	Zahl	Einstellwert	184	80	230	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UACU	Spannungssteigerung schnell	Obere Spannungsschwelle für die Netzüberwachung welche mit einer Zeitüberwachung nach P347 zu einer Abschaltung führt.	107	Zahl	Einstellwert	264	230	300	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+EZWH	Energie Gesamt Wattstunden	Gesamtenergie des Geräts	108	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	9	0	Nein	Nein	Nein	Ja	leer
+IPADR	IP:	IP-Adresse	109	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+IPHH	IP-Adresse WR HH	Erster Nummernblock der IP-Adresse	110	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+IPHL	IP-Adresse WR HL	Zweiter Nummernblock der IP-Adresse	111	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+IPLH	IP-Adresse WR LH	Dritter Nummernblock der IP-Adresse	112	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+IPLL	IP-Adresse WR LL	Vierter Nummernblock der IP-Adresse	113	Zahl	Einstellwert	99	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SBHH	Subnetzmaske HH	Erster Nummernblock der Subnetzmaske	114	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SBHL	Subnetzmaske HL	Zweiter Nummernblock der Subnetzmaske	115	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SBLH	Subnetzmaske LH	Dritter Nummernblock der Subnetzmaske	116	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SBLL	Subnetzmaske LL	Vierter Nummernblock der Subnetzmaske	117	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SGHH	Standardgateway HH	Erster Nummernblock der Standardgateawayadresse	118	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SGHL	Standard_Gateway HL	Zweiter Nummernblock der Standardgateawayadresse	119	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SGLH	Standardgateway LH	Dritter Nummernblock der Standardgateawayadresse	120	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+SGLL	Standardgateway LL	Vierter Nummernblock der Standardgateawayadresse	121	Zahl	Einstellwert	1	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+MAXP	Maximale Leistung Heute	Bis zum Ablesezeitpunkt maximal ins Netz eingespeiste Leistung	122	Zahl	Istwert	0	0	0	USHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+BSH	Betriebsstunden Heute	Gesamte Betriebstunden des Tages	123	Zahl	Istwert	0	0	0	USHORT	PW0	Hour	2	1	Nein	Nein	Nein	Nein	leer
+BSG	Betriebsstunden Gesamt	Gesamte Betriebstunden des Geräts bisher	124	Zahl	Istwert	0	0	0	ULONG	PW4	Hour	6	1	Nein	Nein	Nein	Nein	leer
+BMG	Betriebsminuten Gesamt	Gesamte Betriebminuten des Geräts bisher	125	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+FEW	Funktion Externe Warnung	Externe Signale können in die Warnfunktion eingebunden werden	126	Zahl	Einstellwert	0	0	8	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+T4	Testvariable 4	Testvariable Nr. 4	127	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T5	Testvariable 5	Testvariable Nr. 5	128	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+FWV	Firmwarerelease	leer	129	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	9	0	Nein	Nein	Nein	Nein	leer
+DNS2SERV	DNS Server 2	leer	130	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des 2. DNS Servers
+PRCF	Power Reduction Configuration Funktion	Funktion Power Reduction Card	131	Zahl	Einstellwert	0	0	1	USHORT	PW3	Without	5	0	Nein	Nein	Nein	Ja	leer
+GMLV	GM Leistungsvorgabe	leer	132	Zahl	Istwert	0	-1000	1000	SHORT	PW0	Percent	3	1	Nein	Nein	Nein	Nein	leer
+GMCNT	GM Paketzähler	leer	133	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+GMCONFIG	GM Konfiguration	leer	134	Zahl	Einstellwert	0	0	65535	USHORT	PW3	Without	5	0	Nein	Nein	Ja	Ja	leer
+GMSNFILT	GM Seriennummer Filter	leer	135	Zahl	Einstellwert	0	0	65535	USHORT	PW3	Without	5	0	Nein	Nein	Nein	Ja	leer
+GMUDPPORT	GM UDP Port	leer	136	Zahl	Einstellwert	UDP_PORT_GMPROTOKOLL	1024	65535	USHORT	PW3	Without	5	0	Nein	Nein	Nein	Ja	leer
+GMUDPTIME	GM UDP Timeout	leer	137	Zahl	Einstellwert	30	0	30000	USHORT	PW3	Second	4	1	Nein	Nein	Nein	Ja	leer
+GMLRED	GM Leistungsbegrenzung	leer	138	Zahl	Einstellwert	0	0	6000	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+GMIACSLOPE	GM IAC Steigerung	leer	139	Zahl	Einstellwert	4	1	20	SHORT	PW4	Without	2	0	Nein	Nein	Nein	Ja	Rampe für Gridmanager-Vorgabe in 0,01A/20ms
+SI	Status Information	leer	140	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	3	0	Nein	Nein	Nein	Nein	leer
+ERRT	Fehler heute	Alle Fehler, die sich bisher heute ereignet haben	141	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+UID	Unique ID	leer	142	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Ja	Nein	Ja	leer
+CANCONF	CAN Konfiguration	leer	143	Zahl	Einstellwert	MCAND_MASK_ALL_SEND_FUNCTION_ENABLED	0	0xFFFFFFFF	ULONG	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+SELERROUT	Fehlerausgabe Auswahl	leer	144	Zahl	Einstellwert	1	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Ja	leer
+ERRG	Fehler gesamt	Alle Fehler, die sich bisher ereignet haben	145	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+LBF	Letzter Betriebsfehler	Der letzte Fehler, der sich ereignet hat	146	Zahl	Einstellwert	0	0	999	USHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	leer
+GK	Geräteklasse	Zeigt die Geräteklasse an	147	Zahl	Einstellwert	GL_WR_SE50S2	GL_WR_SE40S2N	GL_WR_SEMX_DEVICE	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	Min-Wert muss 15 sein, damit erkannt wird, wenn 40er FW auf GK=15 aufgespielt wird
+SN	Seriennummer	Zeigt die Seriennummer des Gerätes	148	Zahl	Einstellwert	WR_DEFAULT_SN	1	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+FWVO	Firmwarerelease Alt	Release der Firmware	149	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	9	0	Nein	Nein	Nein	Nein	leer
+WRBSH	Wechselrichter Betriebsstunden heute	Alle Betriebsstunden des Wechselrichters heute	152	Zahl	Istwert	0	0	0	USHORT	PW0	Hour	2	1	Nein	Nein	Nein	Nein	leer
+WRBSG	Wechselrichter Betriebsstunden gesamt	Alle Betriebsstunden des Wechselrichters seit der Inbetriebnahme	153	Zahl	Istwert	0	0	0	ULONG	PW4	Hour	6	1	Nein	Nein	Nein	Nein	leer
+WRBMG	Wechselrichter Betriebsminuten gesamt	Alle Betriebsminuten des Wechselrichters seit der Inbetriebnahme	154	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+WARN	Status Warnung	Betriebszustand Warnung	155	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+T6	Testvariable 6	Testvariable 6	156	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T7	Testvariable 7	Testvariable 7	157	Zahl	Einstellwert	0	-2147483647	2147483646	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+BUILDD	Build Datum	Firmware Erzeugungsdatum	158	Zahl	Istwert	0	0	0	ULONG	PW4	Without	8	0	Nein	Ja	Nein	Nein	leer
+UDCMH	UDC Min Hysterese	Bestimmt das Schaltverhalten des Wechselrichters an der minimalen DC-Spannung, Wert der Hysterese	159	Zahl	Einstellwert	6	0	30	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UDCPKH	UDC Hysterese zu Netz Peak	Bestimmt das Schaltverhalten des Wechselrichters am Übergang zwischen Netzspannungs-Scheitelwert zur DC-Spannung, Wert der Hysterese	160	Zahl	Einstellwert	6	0	30	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+WZNOK	Netzüberprüfungszeit	Eine Netzuschaltung des Gerätes auf das Netz erfolgt erst nachdem die Netzuschaltbedingungen für mindestens die in diesem Parameter definierten Zeit anliegen.	161	Zahl	Einstellwert	30	0	3600	USHORT	PW3	Second	4	0	Nein	Nein	Nein	Ja	leer
+BUILDT	Build Zeit	Firmware Erzeugungszeit	162	Zahl	Istwert	0	0	0	ULONG	PW4	Without	8	0	Nein	Ja	Nein	Nein	leer
+UMPPMAX	Max MPP-Spannung	Maximalwert der möglichen MPP-Spannung	163	Zahl	Einstellwert	450	330	500	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+RSM	RS485 Master	Wert = 1: Dieser Wechselrichter ist der Daten-Master innerhalb eines Master-Slave-Datenverbundes	164	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+CO2G	CO2-Ersparnis Gesamt	CO2-Ersparnis der gesamten Anlage	197	Zahl	Istwert	0	0	0	ULONG	PW0	Kilogram	6	0	Nein	Nein	Nein	Nein	leer
+PVE	Parameter Version	Version der Parameter	200	Zahl	Istwert	1	1	65535	USHORT	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+PVEA	Parameter Version Alt	Vorige Version der Parameter	201	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	6	0	Nein	Ja	Nein	Ja	leer
+ESBWID	ES-Block-Write-Index Datalogger	leer	202	Zahl	Einstellwert	ES_GetStartBlockVariableEx(DatenloggerArea)	ES_GetStartBlockVariableEx(DatenloggerArea)	ES_GetEndblockEx(DatenloggerArea)	USHORT	PW4	Without	2	0	Nein	Nein	Nein	Ja	Enthält den Index des SPI-Datenblockes in dem der Eventspeicher (Datenloggerbreich) momentan arbeitet.
+ESWID	ES-Write-Index Datalogger	leer	203	Zahl	Einstellwert	0	0	(ES_SEKTOR_SIZE - 1)	ULONG	PW4	Without	5	0	Nein	Nein	Nein	Ja	Gibt den Seek der Eventspeichers (Datenloggerbreich) im jeweiligen SPI-Datenblock an
+MACL	MAC Adr Low	Untere 16 Bit der MAC-Adresse des Ethernet-Controllers	204	Zahl	Einstellwert	0x0002	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+MACM	MAC Adr Middle	Mittlere 16 Bit der MAC-Adresse des Ethernet-Controllers	205	Zahl	Einstellwert	0xEC05	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+MACH	MAC Adr High	Obere 16 Bit der MAC-Adresse des Ethernet-Controllers	206	Zahl	Einstellwert	0x0021	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+FABD	Fabrikationsdatum	Fabrikationsdatum des Geräts	207	Zahl	Einstellwert	11	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+PORT	SPP-Protokoll TCP-Port	Gibt die Portnummer des WR in SPP an	208	Zahl	Einstellwert	33330	1024	65535	USHORT	PW1	Without	5	0	Nein	Nein	Nein	Ja	leer
+PACF	AC Leistung 20ms	leer	209	Zahl	Istwert	0	0	0	SHORT	PW0	Watt	5	0	Nein	Nein	Nein	Nein	leer
+STZ	Start Zähler	Anzahl der Einspeisevorgänge	210	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+ESBWIWS	ES-Block-Write-Index WarnStoer	leer	211	Zahl	Einstellwert	ES_GetStartBlockVariableEx(Warn_StoerArea)	ES_GetStartBlockVariableEx(Warn_StoerArea)	ES_GetEndblockEx(Warn_StoerArea)	USHORT	PW4	Without	2	0	Nein	Nein	Nein	Ja	Enthält den Index des SPI-Datenblockes in dem der Eventspeicher (Warn- und Störspeicherbereich) momentan arbeitet.
+ESWIWS	ES-Write-Index WarnStoer	leer	212	Zahl	Einstellwert	0	0	(ES_SEKTOR_SIZE - 1)	ULONG	PW4	Without	5	0	Nein	Nein	Nein	Ja	Gibt den Seek der Eventspeichers (Warn- und Störspeicherbereich) im jeweiligen SPI-Datenblock an
+DHCP	DHCP aktiv	leer	213	Zahl	Einstellwert	DHCP_INACTIVE	DHCP_INACTIVE	DHCP_ACTIVE	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	Aktiviert den Bezug der IP über DHCP
+DNS1HH	DNS Server HH	leer	214	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS1HL	DNS Server HL	leer	215	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS1LH	DNS Server LH	leer	216	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS1LL	DNS Server LL	leer	217	Zahl	Einstellwert	2	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS2HH	DNS Server2 HH	leer	218	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS2HL	DNS Server2 HL	leer	219	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS2LH	DNS Server2 LH	leer	220	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DNS2LL	DNS Server2 LL	leer	221	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+EHST	Statusbits Einschalthindernis	Alle aktiven Einschalthindernisse	222	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+WARNST	Statusbits Warnung	Alle aktiven Warnungen	223	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	6	0	Nein	Nein	Ja	Nein	leer
+SPIBV	Eventspeicher-Version	leer	224	Zahl	Istwert	0	0	255	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+RSAPL	RS485 Adresse für SOLARLOG (ProLog)	RS485 Adresse für SOLARLOG (ProLog)	230	Zahl	Einstellwert	1	1	32	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Ja	leer
+SLOPEOFFSET	Offset für Rampe PAC EMS	leer	231	Zahl	Einstellwert	200	50	5300	USHORT	PW2	Watt	4	0	Nein	Nein	Nein	Ja	leer
+PACSLOPEUP	Positive Rampe für Wirkleistung EMS	leer	232	Zahl	Einstellwert	600	1	2000	USHORT	PW2	Watt per second	4	0	Nein	Nein	Nein	Ja	leer
+PACSLOPEDOWN	Negative Rampe für Wirkleistung EMS	leer	233	Zahl	Einstellwert	600	1	6000	USHORT	PW2	Watt per second	4	0	Nein	Nein	Nein	Ja	leer
+IPV1	Strom PV 1	Strom des PV-Generators	234	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	2	2	Nein	Nein	Nein	Nein	leer
+IPV2	Strom PV 2	Strom des PV-Generators	235	Zahl	Istwert	0	0	0	USHORT	PW0	Ampere	2	2	Nein	Nein	Nein	Nein	leer
+IPVRAMP	IPV Startrampe	leer	236	Zahl	Einstellwert	1	1	400	USHORT	PW2	Without	3	0	Nein	Nein	Nein	Ja	leer
+TPM	TestvariablePlusMinus	TestvariablePlusMinus	237	Zahl	Einstellwert	0	-100000	100000	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+EMSCTRL	EMS Steuerung	leer	238	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Nein	Steuerbits für das Energie-Management
+IPVROFF	IPV Rampe Offset	leer	239	Zahl	Einstellwert	6	0	100	USHORT	PW2	Without	3	0	Nein	Nein	Nein	Ja	Beschleunigung der IPV-Rampe für Testmode und EMS-Steuerung
+ILIMIT	Grund für aktuelle Begrenzung	leer	240	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Ja	Nein	Zeigt die aktuell niedrigste Begrenzung für die Stromvorgabe an
+STRAMP	Anlauframpe	leer	241	Zahl	Einstellwert	8	0	500	USHORT	PW2	Ampere per second	2	1	Nein	Nein	Nein	Ja	Anlauframpe in 0,1A/s
+PMAXW	Wirkleistung Max	Maximale Wirkleistung 	242	Zahl	Einstellwert	4400	0	5400	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+PACNENN	Nennwirkleistung	leer	243	Zahl	Einstellwert	4000	0	5000	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	Auf diesen Wert bezieht sich Parameter 84
+VSUPPLY1	Versorgungsspannung Elektronik 12V	Versorgungsspannung Elektronik 12V	244	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	2	2	Nein	Nein	Nein	Nein	leer
+VSUPPLY2	Versorgungsspannung Elektronik 5V	Versorgungsspannung Elektronik 5V	245	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	2	2	Nein	Nein	Nein	Nein	leer
+VSUPPLY3	Versorgungsspannung Elektronik 2,5V	Versorgungsspannung Elektronik 2,5V	246	Zahl	Istwert	0	0	0	USHORT	PW0	Volt	2	2	Nein	Nein	Nein	Nein	leer
+IACSMAX	Maximaler Scheinstrom	leer	247	Zahl	Einstellwert	1950	50	2200	USHORT	PW3	Ampere	2	2	Nein	Nein	Nein	Ja	Maximaler Gerätestrom für Wirk- und Blindleistung zusammen
+CFGS	Spezialkonfiguration	Spezielle Konfiguration	248	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Ja	leer
+LCODE	Ländercode	Länderspezifische Voreinstellungen	249	Zahl	Einstellwert	100	0	100	USHORT	PW3	Without	3	0	Nein	Nein	Nein	Ja	Wird bei 66:60 auf 100 gestellt
+PCODE	Produktionscode	Produktionscode für OEM Kunden	250	Zahl	Einstellwert	0	0	3	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Ja	leer
+FLS	File Lese Select	Bitweise Selektion einzelner Dateiblöcke	251	Zahl	Einstellwert	0x00000000	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Ja	Nein	Nein	Nein	leer
+DDU	Differenzdatei Datum Uhrzeit	Bildung einer Differenzdatei mit Datum und Uhrzeit	252	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Ja	Nein	Nein	Nein	leer
+SELFT	Selbst-Test	Betriebszustand: Selbsttest	253	Zahl	Einstellwert	0	0	1	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Nein	leer
+WZNOKK	Wartezeit Netz kurz	Wartezeit Netz kurz	254	Zahl	Einstellwert	5	0	3600	USHORT	PW3	Second	3	0	Nein	Nein	Nein	Ja	leer
+EJRT	Reparaturtool für Jahreslogger	Reparaturtool für den Jahreslogger	255	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW2	Without	9	0	Nein	Nein	Nein	Nein	leer
+WRUZKRKP	KP UZK Regelung Wechselrichter	KP UZK Regelung Wechselrichter	256	Zahl	Einstellwert	16	1	100	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+WRUZKRTN	TN UZK Regelung Wechselrichter	TN UZK Regelung Wechselrichter	257	Zahl	Einstellwert	160	1	400	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+OWMAX	Offset-Grenzwert der Wandler	leer	258	Zahl	Einstellwert	20	0	1000	SHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+CFG1	Konfiguration allgemein	Bitweise Definition: Bit 0 = 1: S0-Leistung und Ertrag in P198 und P199 berücksichtigt	259	Zahl	Einstellwert	0	0	65535	USHORT	PW1	Without	5	0	Nein	Nein	Ja	Ja	leer
+FN	File Transfer Nummer	Kommunikationsparameter SPP	260	Zahl	Einstellwert	0	0	FILES_MAX_FILE_NUMBER	USHORT	PW0	Without	2	0	Ja	Nein	Nein	Nein	leer
+FL	File Transfer Länge	Kommunikationsparameter SPP	261	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+FLI	File Lese Inhalt	Kommunikationsparameter SPP	262	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+FSI	File Schreibe Inhalt	Kommunikationsparameter SPP	263	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+FI	File Lese Index	Kommunikationsparameter SPP	264	Zahl	Einstellwert	0	0	0xFFFFFFFFL	ULONG	PW0	Without	5	0	Ja	Nein	Nein	Nein	leer
+PA1	COM1 Protokollart	0 = Ascii-Protokoll (Hyperterminal); 1 = Solutronic-Protokoll; 2 = Debug-nicht benutze; 3 = Ascii-Protokoll über Modem; 4 = Solutronic-Protokoll über Modem; 5 = Großdisplay Rico; 6 = Großdisplay Schneider (auf Anfrage), 7 = Ascii-Protokoll über GSM-Modem	265	Zahl	Einstellwert	0	0	9	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+PA2	COM2 Protokollart	0 = Ascii-Protokoll (Hyperterminal); 1 = Solutronic-Protokoll; 2 = Debug-nicht benutzt 3 = Ascii-Protokoll über Modem; 4 = Solutronic-Protokoll über Modem; 5 = Großdisplay Rico; 6 = Großdisplay Schneider (auf Anfrage) , 7 = Ascii-Protokoll über GSM-Modem	266	Zahl	Einstellwert	0	0	9	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+AC1	Zugangscode 1	Lesen: 1 = Zugang gestattet. Erstmaliges Beschreiben setzt den Zugangscode 1. Erneuter Zugriff auf die Parametrierung ist dann nur möglich nach vorheriger Eingabe des Zugangs-Codes 1	267	Zahl	Einstellwert	0	0	999999	ULONG	PW1	Without	5	0	Ja	Nein	Nein	Ja	leer
+UHSSSO	Hochsetzsteller Sollwert Offset	Offset für Sollwert des Hochsetzstellers	268	Zahl	Einstellwert	20	0	40	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Ja	leer
+AC2	Zugangscode 2	Lesen: 1 = Zugang gestattet. Erstmaliges Beschreiben setzt den Zugangscode 2. Erneuter Zugriff auf die Parametrierung ist dann nur möglich nach vorheriger Eingabe des Zugangs-Codes 2	269	Zahl	Einstellwert	0	0	999999	ULONG	PW2	Without	5	0	Ja	Nein	Nein	Ja	leer
+FLIL	Datei Inhalt lang	Kommunikationsparameter SPP	270	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DISP	Display Parameter	In Zeile3 des Grundbilds wird der eingestellte Parameter angezeigt.	271	Zahl	Einstellwert	0	0	(ANZAHL_PARAMETER - 1)	USHORT	PW1	Without	3	0	Nein	Nein	Nein	Ja	leer
+DCGN	Generator DC-Nennleistung	Die Nennleistung des PV-Generators wird hier dargestellt. Wert wird benötigt für die Ertragskontrolle	272	Zahl	Einstellwert	4600	0	6000	USHORT	PW1	Watt	5	0	Nein	Nein	Nein	Ja	leer
+EKS	Ertragskontrolle Status	Wert = 1 startet die Ertragskontrolle, dargestellter Wert stellt den Ablauf des Einlesens und Errechnens der Ertragswerte der Slaves dar	273	Zahl	Einstellwert	0	0	65535	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Nein	leer
+DC1N	DC Nennleistung String 1	Die Nennleistung des PV-Generators für String 1 wird hier dargestellt. Wert wird benötigt für die Ertragskontrolle	274	Zahl	Einstellwert	2300	0	65535	USHORT	PW1	Watt	5	0	Nein	Nein	Nein	Ja	leer
+DC2N	DC Nennleistung String 2	Die Nennleistung des PV-Generators für String 2 wird hier dargestellt. Wert wird benötigt für die Ertragskontrolle	275	Zahl	Einstellwert	2300	0	65535	USHORT	PW1	Watt	5	0	Nein	Nein	Nein	Ja	leer
+HUPE	Hupe	Hupe-Funktion	276	Zahl	Einstellwert	0	0	3	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Nein	leer
+EJLT	Tag Energie Jahreslogger	Kommunikationsparameter SPP	277	Zahl	Einstellwert	1	0	372	USHORT	PW0	Without	3	0	Ja	Nein	Nein	Nein	leer
+EJLW	Wert Energie Jahreslogger	Kommunikationsparameter SPP	278	Zahl	Istwert	0	0	0	USHORT	PW0	Kilowatt hour	5	1	Ja	Nein	Nein	Nein	leer
+CFGW	Konfiguration Warnung	Hier können bitweise die einzelnen Warn-Funktionen ein- oder ausgeschaltet werden	279	Zahl	Einstellwert	0x447	0	0xFFFF	USHORT	PW1	Without	5	0	Nein	Nein	Nein	Ja	leer
+EAW	Ertragsabweichung	Wert wird für die Ertragskontrolle verwendet. Jeder Tages-Ertrag (auch der Sensor-Ertrag) wird auf die installierte DC-Nennleistung bezogen. Die Ertragskontrolle erzeugt eine Warnung bei Abweichungen größer als dieser Wert.	280	Zahl	Einstellwert	500	0	65535	USHORT	PW1	Kilowatt hour per Kilowatt-DC-Peak	2	3	Nein	Nein	Nein	Ja	leer
+KPUPVR	UPV Regler Kp	UPV Regler Kp	281	Zahl	Einstellwert	16	1	200	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+TNUPVR	UPV Regler Tn	UPV Regler Tn	282	Zahl	Einstellwert	64	0	1000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+EAAT	Ertragsabweichung Anzahl Tage	Die Ertragskontrolle führt einen Ertragsabgleich über die eingestellte Anzahl von vergangenen Tagen durch	284	Zahl	Einstellwert	2	0	10	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Ja	leer
+UACPCM	Plausiblitätscheck UAC zu UAC2	Plausiblitätscheck UAC zu UAC2	285	Zahl	Einstellwert	10	0	100	SHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+ISOFIM	Isolations-Fehlerstrom Maximalwert	Maximaler Fehlerstrom der Isolationsmessung während der Einschaltprüfung 	286	Zahl	Einstellwert	25	0	1000	USHORT	PW3	uAmpere	4	0	Nein	Nein	Nein	Ja	leer
+KPHSSUZK	KP HSS UZK Regler 	KP Hochsetzsteller UZK-Regler	287	Zahl	Einstellwert	8	1	200	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+TNHSSUZK	TN HSS UZK Regler	TN Hochsetzsteller UZK-Regler 	288	Zahl	Einstellwert	2	0	200	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+IPVF	IPV-Faktor	IPV-Faktor	289	Zahl	Einstellwert	2000	1000	3000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+BM40	Betriebsminuten unter 40°C	Gesamtzahl der Betriebsminuten des Geräts unter 40° C	290	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+BM50	Betriebsminuten unter 50°C	Gesamtzahl der Betriebsminuten des Geräts unter 50° C	291	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+BM55	Betriebsminuten unter 55°C	Gesamtzahl der Betriebsminuten des Geräts unter 55° C	292	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+BM60	Betriebsminuten unter 60°C	Gesamtzahl der Betriebsminuten des Geräts unter 60° C	293	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+BM65	Betriebsminuten unter 65°C	Gesamtzahl der Betriebsminuten des Geräts unter 65° C	294	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+BM70	Betriebsminuten unter 70°C	Gesamtzahl der Betriebsminuten des Geräts unter 70° C	295	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Ja	leer
+EGK	Energie Gesamt Korrekturwert	Der Energie Gesamt-Wert wird um diesen Offset des S0-Zählers korrigiert. 	296	Zahl	Einstellwert	0	0	999999	ULONG	PW1	Kilowatt hour	6	0	Nein	Nein	Nein	Ja	leer
+DDD	Differenz Datei Start-Datum	Kommunikationsparameter SPP	297	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	8	0	Ja	Nein	Nein	Nein	leer
+KPIPVR	PV-Stromregler Kp	PV-Stromregler Kp	298	Zahl	Einstellwert	0	0	100	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+TNIPVR	PV-Stromregler Tn	PV-Stromregler Tn	299	Zahl	Einstellwert	2	2	100	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+LCDTIM	LCD Aktivzeit	leer	300	Zahl	Einstellwert	60	0	600	USHORT	PW1	Second	3	0	Nein	Nein	Nein	Ja	Dauer der LCD Aktivierung nach Tastendruck
+LEDTIM	LCD-LED Aktivzeit	leer	301	Zahl	Einstellwert	60	0	600	USHORT	PW1	Second	3	0	Nein	Nein	Nein	Ja	Dauer der LCD-LED Aktivierung nach Tastendruck
+TCQU	Zeitkonstante für Q(U)	leer	302	Zahl	Einstellwert	0	0	60	USHORT	PW3	Second	2	0	Nein	Nein	Nein	Ja	leer
+MAT	Minimale Arbeitstemperatur	leer	304	Zahl	Einstellwert	-25	-50	0	SHORT	PW2	Degree celsius	2	0	Nein	Nein	Nein	Ja	leer
+DCOFFSLOPE	Steigung DC Offset Kompensation	leer	307	Zahl	Einstellwert	640	0	2000	USHORT	PW4	Without	4	0	Nein	Nein	Nein	Ja	Steigung für DC-Offset-Kompensation * 1024
+DCOFFSTART	DC Offset Kompensation Startwert	leer	308	Zahl	Einstellwert	76	-500	500	SHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	Startwert der Geraden für DC-Offset Kompensation bei 330V UZK
+SGAIPV	Stromregler IPV	Stromregler IPV	309	Zahl	Einstellwert	1	0	10	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Ja	leer
+NPH	Nummer Netzphase	Nummer der Netzphase	310	Zahl	Einstellwert	1	1	3	USHORT	PW3	Without	5	0	Nein	Nein	Nein	Ja	leer
+ROCOFS	RoCoF Schwelle	leer	312	Zahl	Einstellwert	0	0	2000	USHORT	PW3	Hertz per second	1	3	Nein	Nein	Nein	Ja	Rate of Change of Freuquency, Inselnetzerkennung für GB
+ROCOFT	RoCoF Dauer	leer	313	Zahl	Einstellwert	0	0	100	USHORT	PW3	Second	1	2	Nein	Nein	Nein	Ja	Rate of Change of Freuquency, Inselnetzerkennung für GB
+TUACMAXL1	Abschaltzeit Überspannung Level 1	leer	314	Zahl	Einstellwert	1000	0	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Alternative Abschaltzeit über Fehelrzähler statt MWF
+URM	Abweichung WR-UZK-Regler-Schwelle unten	Abweichung WR-UZK-Regler Schwelle nach unten für schnellere Regelung	315	Zahl	Einstellwert	7	1	100	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Ja	leer
+URP	Abweichung WR-UZK-Regler-Schwelle oben	Abweichung WR-UZK-Regler Schwelle nach oben für schnellere Regelung	316	Zahl	Einstellwert	7	1	100	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Ja	leer
+KPM	Beschleunigungsfaktor WR_UZK-Regler unten	Beschleunigungsfaktor WR_UZK-Regler nach unten	317	Zahl	Einstellwert	50	0	500	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+KPP	Beschleunigungsfaktor WR_UZK-Regler oben	Beschleunigungsfaktor WR_UZK-Regler nach oben	318	Zahl	Einstellwert	25	0	500	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+FES	Funktion Externe Störung	Einbindung von externen Störungen in den Betrieb des WR	319	Zahl	Einstellwert	0	0	65535	USHORT	PW1	Without	5	0	Nein	Nein	Nein	Ja	leer
+SPIOFF	SPI Abschaltung	leer	320	Zahl	Einstellwert	0	0	2	USHORT	PW3	Without	1	0	Nein	Nein	Nein	Ja	CEI 0-21
+SPIFREQ	SPI Frequenzauswahl	leer	321	Zahl	Einstellwert	0	0	2	USHORT	PW3	Without	1	0	Nein	Nein	Nein	Ja	CEI 0-21
+SPIFMAX	SPI Frequenzsteigerung	leer	322	Zahl	Einstellwert	50	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	CEI 0-21
+SPIFMIN	SPI Frequenzrückgang	leer	323	Zahl	Einstellwert	50	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	CEI 0-21
+DIGIN	Digitale Eingänge	leer	324	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	Zustand der digitalen Eingänge (CEI 0-21)
+TUACMINS	Abschaltzeit Unterspannung Level 1	leer	325	Zahl	Einstellwert	1000	0	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Fehlerzähler-Überwachung für UACMin slow
+FNENN	Netzfrequenz Nennwert	Frequenz auf die sich die Parameter 75,76,341,343 beziehen.	326	Zahl	Einstellwert	5000	4700	6300	USHORT	PW3	Hertz	2	2	Nein	Nein	Nein	Ja	leer
+UHSSRP	Abweichung HSS-UZK-Regler Schwelle nach oben für schnellere Regelung	Abweichung HSS-UZK-Regler Schwelle nach oben für schnellere Regelung	327	Zahl	Einstellwert	10	1	40	USHORT	PW2	Without	2	0	Nein	Nein	Nein	Ja	leer
+HSSKPP	Beschleunigungsfaktor HSS_UZK-Regler nach oben	Beschleunigungsfaktor HSS_UZK-Regler nach oben	328	Zahl	Einstellwert	200	0	2000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+RU	Reset-Ursache	Ursache für Reset	329	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+DFLROKMIN	Frequenzabweichung Aufhebung Leistungsred. min	leer	330	Zahl	Einstellwert	10	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+DPDHZ	Leistungsänderung pro Hertz	Vorgabe Leistungsreduktion mit der Frequenz	331	Zahl	Einstellwert	40	0	100	USHORT	PW3	Percent	2	0	Nein	Nein	Nein	Ja	leer
+PBA	Betriebsart Leistungsreduktion	leer	332	Zahl	Einstellwert	1	0	2	USHORT	PW3	Without	1	0	Nein	Nein	Nein	Ja	leer
+DFLROKMAX	Frequenzabweichung Aufhebung Leistungsred. max	leer	333	Zahl	Einstellwert	10	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+WZNOKL	Netzüberprüfungszeit lang	leer	334	Zahl	Einstellwert	300	0	3600	USHORT	PW3	Second	4	0	Nein	Nein	Nein	Ja	leer
+UACNMAX	UAC N Max	UAC N Max	335	Zahl	Einstellwert	100	0	500	USHORT	PW3	Volt	3	1	Nein	Nein	Nein	Ja	leer
+DELPF	Zeitverzögerung Frequenz-Leistungsreduktion	leer	336	Zahl	Einstellwert	100	0	60000	USHORT	PW3	Second	2	2	Nein	Nein	Nein	Ja	leer
+TFMAXS	Abschaltzeit Überfrequenz Level 1	Maximale Zeit für die die Netzfrequenz über der Schwelle aus Parameter 337 liegen darf	337	Zahl	Einstellwert	200	5	60000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+TFMINS	Abschaltzeit Unterfrequenz Level 1	Maximale Zeit für die die Netzfrequenz unter der Schwelle aus P338 liegen darf	338	Zahl	Einstellwert	200	5	60000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+NSRL	Neustart Rampe langsam	Neustart Rampe langsam	339	Zahl	Einstellwert	10	0	600	USHORT	PW3	Percent	3	0	Nein	Nein	Nein	Ja	% von Inenn pro Minute
+DFLRMAX	Max. Frequenzabweichung Leistungsred.	leer	340	Zahl	Einstellwert	150	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+DFLR	Frequenzabweichung Leistungsred.	Frequenzabweichung von 50Hz für Start Leistungsreduktion	341	Zahl	Einstellwert	20	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	Start Leistungsreduktion
+DCP	Delta Cosinus Phi	Delta Cosinus Phi	342	Zahl	Einstellwert	0	-210	210	SHORT	PW3	Without	1	3	Nein	Nein	Nein	Ja	leer
+PNLM	Netzlade-Leistung (Maximal)	Netzlade-Leistung (Maximal)	343	Zahl	Einstellwert	4000	0	4000	USHORT	PW2	Watt	5	0	Nein	Nein	Nein	Ja	leer
+PSA	Phaseshift Amplitude	Vorgabe der Amplitude für die Inselnetzerkennung	344	Zahl	Einstellwert	30	0	1000	USHORT	PW3	Without	4	0	Nein	Nein	Nein	Ja	leer
+PSD	Phaseshift Dauer	Vorgabe der Pulsdauer für die Inselnetzerkennung	345	Zahl	Einstellwert	10	0	1000	SHORT	PW3	Without	4	0	Nein	Nein	Nein	Ja	leer
+PSFM	Phaseshift F-Max	Vorgabe der Frequenzabweichung für die Inselnetzerkennung	346	Zahl	Einstellwert	100	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+PSI	Phaseshift Intervall	Vorgabe der Wiederholrate für die Inselnetzerkennung	347	Zahl	Einstellwert	100	10	1000	SHORT	PW3	Without	4	0	Nein	Nein	Nein	Ja	leer
+TUACMAXS	Überwachungszeit Netzspannungssteigerung	Filterzeit für die langsame Spannungsüberwachung über ein gleitendes Mittelwertfilter	348	Zahl	Einstellwert	6000	0	6000	USHORT	PW3	Second	4	1	Nein	Nein	Nein	Ja	leer
+CPPSP	Cosinus Phi Startleistung	Endleistung für die Cosinus Phi Regelung	349	Zahl	Einstellwert	2500	0	6000	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+CPPMCP	Delta Cosinus Phi Max	Maximaler Wert für Delta CosPhi	350	Zahl	Einstellwert	0	-210	210	SHORT	PW3	Without	1	3	Nein	Nein	Nein	Ja	leer
+CPPEP	Cosinus Phi Endleistung	Startleistung für die Cosinus Phi Regelung	351	Zahl	Einstellwert	5500	0	6000	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+LANGCODE	Sprachenkennung	Sprachenkennung	352	Zahl	Istwert	0	0	0	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	leer
+NVSV	Nicht flüchtige Speichervariable	leer	353	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Nein	Ja	Ja	leer
+OMEGAQ	I-Anteil Stromregler Pol bei 50Hz	I-Anteil Stromregler Pol bei 50Hz	354	Zahl	Einstellwert	404	-20000	20000	SHORT	PW2	Without	6	0	Nein	Nein	Nein	Ja	leer
+IRK50	P-Anteil Stromregler Pol bei 50Hz	P-Anteil Stromregler Pol bei 50Hz	355	Zahl	Einstellwert	20000	-25000	25000	SHORT	PW2	Without	6	0	Nein	Nein	Nein	Ja	leer
+KPUAC	Stromregler KP UAC	Stromregler KP UAC	356	Zahl	Einstellwert	777	0	2000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+QSOLL1	Blindleistung Sollwert 1	Blindleistung Sollwert	357	Zahl	Einstellwert	0	-3000	3000	SHORT	PW3	Volt-Ampere-reactiv	4	0	Nein	Nein	Nein	Ja	leer
+QBA	Betriebsart Blindstrom	Betriebsart Blindstrom	358	Zahl	Einstellwert	0	0	11	USHORT	PW3	Without	2	0	Nein	Nein	Nein	Ja	leer
+QSOLL2	Blindleistung Sollwert 2	Blindleistung Sollwert	359	Zahl	Einstellwert	0	-3000	3000	SHORT	PW3	Volt-Ampere-reactiv	4	0	Nein	Nein	Nein	Ja	leer
+ULOCKIN	UAC Lock-In	leer	360	Zahl	Einstellwert	0	0	300	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+ULOCKOUT	UAC Lock-Out	leer	361	Zahl	Einstellwert	0	0	300	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+LCDKON	LCD Kontrast	Parameter wird benutzt um den Kontrast des LCD-Displays einzustellen	362	Zahl	Einstellwert	4	1	8	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+LCDBEL	LCD Beleuchtung	Parameter wird benutzt um die Beleuchtung des LCD-Displays einzustellen	363	Zahl	Einstellwert	4	1	8	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Ja	leer
+NLUZKS	Netz Laden: UZK-Sollwert	Netz Laden: UZK-Sollwert	364	Zahl	Einstellwert	400	370	450	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+LDC1	Induktivität DC-Drossel PV1	Induktivität DC-Drossel PV1	365	Zahl	Einstellwert	1700	1000	2000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+LDC2	Induktivität DC-Drossel PV2	Induktivität DC-Drossel PV2	366	Zahl	Einstellwert	1700	1000	2000	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+UPVST	Startspannung PV	Startspannung PV	367	Zahl	Einstellwert	80	50	350	USHORT	PW2	Volt	3	0	Nein	Nein	Nein	Ja	leer
+UACS1	UAC Schwelle 1	Netzspannung an der Schwelle 1	368	Zahl	Einstellwert	210	0	290	USHORT	PW3	Volt	5	0	Nein	Nein	Nein	Ja	leer
+UACS2	UAC Schwelle 2	Netzspannung an der Schwelle 2	369	Zahl	Einstellwert	220	0	290	USHORT	PW3	Volt	5	0	Nein	Nein	Nein	Ja	leer
+UACS3	UAC Schwelle 3	Netzspannung an der Schwelle 3	370	Zahl	Einstellwert	240	0	290	USHORT	PW3	Volt	5	0	Nein	Nein	Nein	Ja	leer
+UACS4	UAC Schwelle 4	Netzspannung an der Schwelle 4	371	Zahl	Einstellwert	250	0	290	USHORT	PW3	Volt	5	0	Nein	Nein	Nein	Ja	leer
+DFSMAX	Max. Einschaltfrequenz	Max. Frequenzabweichung von 50Hz für Einschaltung.	372	Zahl	Einstellwert	10	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+LCDV	LCD-Version	LCD-Version	373	Zahl	Einstellwert	0	0	68	USHORT	PW4	Without	2	0	Nein	Nein	Nein	Nein	leer
+PFRAMP	Rampe nach Leistungsreduktion	leer	374	Zahl	Einstellwert	10	0	600	USHORT	PW3	Percent	3	0	Nein	Nein	Nein	Ja	leer
+TUACMAXF	Abschaltzeit Überspannung Level 2	Maximale Zeit für die die Netzspannung über dem Schwellwert aus Parameter P107 liegen darf.	375	Zahl	Einstellwert	20	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+TUACMINF	Abschaltzeit Unterspannung Level 2	Maximale Zeit für die die Netzspannung unter dem Schwellwert aus Parameter P106 liegen darf.	376	Zahl	Einstellwert	20	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+TFMAXF	Abschaltzeit Überfrequenz Level 2	Maximale Zeit für die die Netzfrequenz über der Schwelle aus P75 liegen darf	377	Zahl	Einstellwert	20	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+TFMINF	Abschaltzeit Unterfrequenz Level 2	Maximale Zeit für die die Netzfrequenz unter der Schwelle aus P76 liegen darf	378	Zahl	Einstellwert	20	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	Nein
+DFMAXS	Frequenzabweichung nach oben Level 1	Eine Erhöhung der Netzfrequenz um diesen Wert führt zu einer Störabschaltung	379	Zahl	Einstellwert	150	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	Nein
+DFMINS	Frequenzabweichung nach unten Level 1	Eine Verringerung der Netzfrequenz um diesen Wert führt zu einer Störabschaltung	380	Zahl	Einstellwert	250	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	Nein
+IC	Installateur Code	Codenummer des Installateurs	381	Zahl	Einstellwert	0	0	65535	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+PW3RT	PW3 Resttage	Resttage zur Freischaltung von Passwort-Level3	382	Zahl	Einstellwert	-11	-11	31	SHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	leer
+PW3FSC	Passwort	Eingabe des Passwort-Level 3 über Display	383	Zahl	Einstellwert	0	0	999999	ULONG	PW0	Without	6	0	Ja	Nein	Nein	Nein	leer
+TSPIFMAX	Abschaltzeit SPI Frequenzabweichung nach oben	leer	384	Zahl	Einstellwert	10	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	CEI 0-21
+QEXT	Blindleistung extern	leer	385	Zahl	Einstellwert	0	-3000	3000	SHORT	PW2	Volt-Ampere-reactiv	4	0	Nein	Nein	Nein	Nein	Parameternummer darf nicht verändert werden da Broadcast-Parameter
+DFSMIN	Min. Einschaltfrequenz	leer	386	Zahl	Einstellwert	500	0	500	USHORT	PW3	Hertz	1	2	Nein	Nein	Nein	Ja	leer
+UCEXT	Spannung extern	leer	387	Zahl	Einstellwert	0	0	4000	USHORT	PW2	Volt	3	1	Nein	Nein	Nein	Nein	Platzhalter, noch nicht benutzt. Broadcast-Parameter!
+COSPHIEXT	Delta Cosinus Phi extern	leer	388	Zahl	Einstellwert	0	-210	210	SHORT	PW2	Without	1	3	Nein	Nein	Nein	Nein	Cosphi Vorgabe von extern
+TSPIFMIN	Abschaltzeit SPI Frequenzabweichung nach unten	leer	389	Zahl	Einstellwert	10	5	30000	USHORT	PW3	Second	3	2	Nein	Nein	Nein	Ja	CEI 0-21
+PACS2	Cosinus Phi PAC Schwelle 2 	leer	390	Zahl	Einstellwert	3500	0	5500	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+PACS3	Cosinus Phi PAC Schwelle 3	leer	391	Zahl	Einstellwert	4500	0	5500	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+PACLOCKIN	PAC Lock-In	leer	392	Zahl	Einstellwert	0	0	5400	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+PACLOCKOUT	PAC Lock-Out	leer	393	Zahl	Einstellwert	0	0	5400	USHORT	PW3	Watt	4	0	Nein	Nein	Nein	Ja	leer
+QSLOPE	Blindstrom Rampe Inkrement	leer	394	Zahl	Einstellwert	5	1	50	USHORT	PW3	Without	1	2	Nein	Nein	Nein	Ja	Inkrement für Blindstrom. in 0,01A pro 20ms
+QONOFFSET	Q aktiv Kompensation Offset	leer	395	Zahl	Einstellwert	-8	-200	200	SHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	leer
+QONRAMP	Q aktiv Kompensation Faktor	leer	396	Zahl	Einstellwert	35	0	500	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+BMZ	Betriebsminutenzähler	Zähler der Betriebsminuten des Geräts	397	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Minute	6	0	Nein	Nein	Nein	Nein	leer
+TDELUACMAX	Delay Korrektur UAC Max	leer	398	Zahl	Einstellwert	4	0	100	USHORT	PW4	Second	1	2	Nein	Nein	Nein	Ja	leer
+TDELUACMIN	Delay Korrektur UAC Min	leer	399	Zahl	Einstellwert	4	0	100	USHORT	PW4	Second	1	2	Nein	Nein	Nein	Ja	leer
+TDELFREQMAX	Delay Korrektur Freq Max	leer	400	Zahl	Einstellwert	2	0	100	USHORT	PW4	Second	1	2	Nein	Nein	Nein	Ja	leer
+TDELFREQMIN	Delay Korrektur Freq Min	leer	401	Zahl	Einstellwert	2	0	100	USHORT	PW4	Second	1	2	Nein	Nein	Nein	Ja	leer
+QOFFOFFSET	Q inaktiv Kompensation Offset	leer	402	Zahl	Einstellwert	-10	-200	200	SHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	Blindleistungs-Kompensation-Offset wenn keine Blindleistung ausgewählt
+IRKP	Stromregler Kp	Stromregler Parameter Kp	404	Zahl	Einstellwert	2000	0	10000	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+IRTN	Stromregler Tn	Stromregler Parameter Tn	405	Zahl	Einstellwert	20	0	1500	USHORT	PW2	Without	4	0	Nein	Nein	Nein	Ja	leer
+TRIPDEL	Tripdelay	leer	406	Zahl	Einstellwert	800	0	3000	USHORT	PW4	Without	4	0	Nein	Nein	Nein	Ja	Verzögerung des Trips im LVRT Fall
+IRUACMIN	UACMin Stromregler	leer	407	Zahl	Einstellwert	100	0	300	USHORT	PW4	Volt	3	0	Nein	Nein	Nein	Ja	leer
+TRIPCNT	Tripcount	leer	408	Zahl	Einstellwert	3	0	500	USHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	Anzahl der Trips die während LVRT zugelassen sind
+QOFFRAMP	Q inaktiv Kompensation Faktor	leer	409	Zahl	Einstellwert	22	0	500	USHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	Blindleistungs-Kompensation-Faktor wenn keine Blindleistung ausgewählt
+DLOP	Datenlogger Operation	leer	411	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLSTAT	Datenlogger Status	leer	412	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLPONR	Datenlogger Poolnummer	leer	413	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLPANR	Datenlogger Parameternummer	leer	414	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLINT	Datenlogger Logintervall	leer	415	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLART	Datenlogger Logart	leer	416	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+HD	Hardware User Disable	leer	417	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Ja	Über diesen Parameter können die Hardwarekomponenten disabled werden
+HSR	Hardware Selftest Result	leer	418	Zahl	Istwert	0	0	65535	USHORT	PW3	Without	5	0	Nein	Nein	Ja	Nein	Dieser Parameter enthält das Ergebnis des Buildin-Selftests
+TC	Time Calibration	leer	419	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Nein	Nein	Nein	Dieser Parameter dient zur Zeitkunfiguration des Semx-Komponente. Die Konfiguration erfolgt über die Sekundendifferenz seit 2014. Schaltjahre werden nicht berücksichtigt -> Reiner abgleich der Zeitparameter
+LF	Letzter Fehler	leer	420	Zahl	Einstellwert	0	0	999	USHORT	PW4	Without	3	0	Nein	Nein	Nein	Ja	leer
+FRAMSIG	FRAM Signatur	leer	421	Zahl	Einstellwert	0x9A56FC13	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Ja	Nein	Ja	leer
+FWSIG	Firmware Signatur	leer	422	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+TESTPROD	Testmode Produktion	leer	423	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Nein	leer
+TMPKEY	TMP Tasteneingabe	leer	424	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	Anzeige der Tasteneingabe im Testmode Produktion
+PLT	Plot Typ	leer	425	Zahl	Einstellwert	0	0	MSEMF_countOfPlotTypes	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+PLE	Plot Event	leer	426	Zahl	Einstellwert	0	0	MSEMF_countOfPlotEvents	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+PLCMD	Plot Kommando	leer	427	Zahl	Einstellwert	0	0	MSEMF_countOfPlotCommands	USHORT	PW4	Without	10	0	Nein	Nein	Nein	Nein	leer
+PLSTAT	Plot Status	leer	428	Zahl	Einstellwert	0	0	MSEMF_countOfPlotStatus	USHORT	PW4	Without	1	0	Nein	Nein	Nein	Nein	leer
+PLA	Plot Attribut	leer	429	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW4	Without	10	0	Nein	Nein	Nein	Nein	leer
+LVRTMIN	LVRT Min-Schwelle	leer	430	Zahl	Einstellwert	196	0	230	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+LVRTMAX	LVRT Max-Schwelle	leer	431	Zahl	Einstellwert	253	230	300	USHORT	PW3	Volt	3	0	Nein	Nein	Nein	Ja	leer
+LVRTRET	LVRT Rampen Dauer	leer	432	Zahl	Einstellwert	200	0	65535	USHORT	PW3	Second	2	3	Nein	Nein	Nein	Ja	leer
+LVRTIWIRK	LVRT Nenn-Wirkstrom	leer	433	Zahl	Einstellwert	0	0	2200	USHORT	PW3	Ampere	2	2	Nein	Nein	Nein	Ja	leer
+LVRTIBLIND	LVRT Nenn-Blindstrom	leer	434	Zahl	Einstellwert	0	0	2260	USHORT	PW3	Ampere	2	2	Nein	Nein	Nein	Ja	leer
+NETZCONFIG	Netz Konfiguration	leer	435	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW3	Without	5	0	Nein	Nein	Ja	Ja	Netzspezifische Konfigurationen können hier vorgenommen werden
+LVRTKQ	LVRT K-Faktor Blindstrom	leer	436	Zahl	Einstellwert	0	0	20	USHORT	PW3	Without	2	0	Nein	Nein	Nein	Ja	leer
+LVRTEVENT	LVRT Ereigniszähler	leer	437	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW3	Without	5	0	Nein	Nein	Nein	Ja	leer
+TSS	Temporäre SEMX Variable	leer	438	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Nein	This variable contain temporary SEMX info/control bits
+HBIT	Heartbeat Init Time	leer	439	Zahl	Einstellwert	1	0	65535	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+HBTO	Heartbeat Intervall Timeout	leer	440	Zahl	Einstellwert	3	0	65535	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+HBIS	Heartbeat Intervall Send	leer	441	Zahl	Einstellwert	1	0	65535	USHORT	PW2	Without	5	0	Nein	Nein	Nein	Ja	leer
+HBCNT	Heartbeat	leer	442	Zahl	Einstellwert	0	0	0	USHORT	PW2	Without	5	0	Nein	Nein	Ja	Nein	leer
+EMSCMD	EMS Kommando	leer	443	Zahl	Einstellwert	0	0	0xFFFF	ULONG	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+SETUP	Setup erforderlich	leer	444	Zahl	Einstellwert	SETUP_ACTIVE	SETUP_DONE	SETUP_ACTIVE	USHORT	PW3	Without	1	0	Nein	Nein	Nein	Ja	leer
+RELTEST	Relaistest Intervall	leer	445	Zahl	Einstellwert	0	0	7200	USHORT	PW4	Minute	5	0	Nein	Nein	Nein	Ja	leer
+OPCONF	Betriebsverhalten	leer	446	Zahl	Einstellwert	1	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Ja	Bits die das Betriebsverhalten definieren
+VECFI	Variabler Energiezähler Einspeisung	leer	447	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Ja	leer
+VECGL	Variabler Energiezähler Netzladen	leer	448	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Ja	leer
+VECPV1	Variabler Energiezähler PV1	leer	449	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Ja	leer
+VECPV2	Variabler Energiezähler PV2	leer	450	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Ja	leer
+IECFI	Intervall Energiezähler Einspeisung	leer	451	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+IECGL	Intervall Energiezähler Netzladen	leer	452	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+IECPV1	Intervall Energiezähler PV1	leer	453	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+IECPV2	Intervall Energiezähler PV2	leer	454	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+ECWS	Fehlerzähler Watchdog Speicher	leer	479	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Ja	leer
+FKO	Flash Kommando	leer	480	Zahl	Einstellwert	MSF_GetCmd(S_None)	0	MSF_SLAVE_COMMANDS_COUNT-1	USHORT	PW0	Without	2	0	Nein	Nein	Nein	Ja	leer
+FST	Flash Status	leer	481	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Nein	Nein	Ja	leer
+DCONF	EMS Konfiguration	leer	482	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Ja	EMS Konfigurationen können hier vorgenommen werden
+

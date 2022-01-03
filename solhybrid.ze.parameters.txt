@@ -1,0 +1,238 @@
+NULL	Kein Parameter	leer	0	Zahl	Istwert	0	0	0	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+GMDSEFF	Netzleistung	leer	1	Zahl	Istwert	0	0	0	LONG	PW4	Watt	5	0	Nein	Nein	Nein	Nein	leer
+GMDS	Gleitende Mittelwert der Summenleistung	leer	2	Zahl	Istwert	0	0	0	LONG	PW4	Watt	5	0	Nein	Nein	Nein	Nein	leer
+GML1	Gleitender Mittelwert der L1-Leistung	leer	3	Zahl	Istwert	0	0	0	LONG	PW4	Watt	5	0	Nein	Nein	Nein	Nein	leer
+GML2	Gleitender Mittelwert der L2-Leistung	leer	4	Zahl	Istwert	0	0	0	LONG	PW4	Watt	5	0	Nein	Nein	Nein	Nein	leer
+GML3	Gleitender Mittelwert der L3-Leistung	leer	5	Zahl	Istwert	0	0	0	LONG	PW4	Watt	5	0	Nein	Nein	Nein	Nein	leer
+SSCC	SOC Stop Erhaltungladung	leer	9	Zahl	Einstellwert	10	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+SBCC	SOC Start Erhaltungladung	leer	10	Zahl	Einstellwert	3	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+SOCELS	Black-Start SOC Stopp	leer	11	Zahl	Einstellwert	10	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+SOCDS	SOC Entlade Stopp	leer	12	Zahl	Einstellwert	10	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+VW	Verbleibende Wartezeit	leer	14	Zahl	Istwert	0	0	0	USHORT	PW1	Second	5	0	Nein	Nein	Nein	Nein	leer
+WA	Wartezeit Addition	leer	15	Zahl	Einstellwert	20	0	3600	USHORT	PW1	Second	4	0	Nein	Ja	Nein	Nein	leer
+WRZ	Wartezeit Reset Zeit	leer	16	Zahl	Einstellwert	15	1	60	USHORT	PW1	Minute	2	0	Nein	Ja	Nein	Nein	leer
+STINFO	Status Info	leer	18	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+RC	Relais Kontrolle	leer	19	Zahl	Einstellwert	0	0	0xF	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Nein	leer
+BL	Batterie Leistung	leer	21	Zahl	Istwert	0	0	0	SHORT	PW0	Watt	4	0	Nein	Nein	Nein	Nein	leer
+HVU	Eigenverbrauch	leer	23	Zahl	Istwert	0	0	65535	LONG	PW0	Watt	4	0	Nein	Nein	Nein	Nein	leer
+PVL	PV Leistung	leer	24	Zahl	Istwert	0	0	65535	USHORT	PW0	Watt	4	0	Nein	Nein	Nein	Nein	leer
+RP	Auswahl des Messbezugs	leer	25	Zahl	Einstellwert	SM_RPH_ALL	SM_RPH_ALL	SM_RPH_CONNECTED_PHASE	USHORT	PW2	Without	1	0	Nein	Ja	Nein	Nein	leer
+NPH	Angeschlossene Phase	Nummer der Netzphase	26	Zahl	Einstellwert	SM_CPH_L1	SM_CPH_L1	SM_CPH_L3	USHORT	PW2	Without	1	0	Nein	Ja	Nein	Nein	leer
+DSTATUS	Angestrebter Geräte Zustand	leer	31	Zahl	Istwert	0	0	0	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+STATUS	Statustext	leer	32	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+IEHL	Intervall Energiezähler Hausverbrauch	leer	33	Zahl	Istwert	0	0	0	ULONG	PW0	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+IEFI	Intervall Energiezähler Einspeisung	leer	34	Zahl	Istwert	0	0	0	ULONG	PW0	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+IEGS	Intervall Energiezähler Netzversorgung	leer	35	Zahl	Istwert	0	0	0	ULONG	PW0	Watt hour	10	0	Nein	Nein	Nein	Nein	leer
+PW	Passwort	leer	37	Zahl	Istwert	0	0	10000	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Ja	leer
+DNI	Gerät nicht initialisiert	leer	38	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Ja	Nein	Show the actual initialize state of the Slaves
+DMLA	Entlademodus aktiviert	leer	39	Zahl	Einstellwert	0	0	1	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+DMLL	Entlademodus Leistungslimit	leer	40	Zahl	Einstellwert	5000	0	5000	USHORT	PW1	Watt	5	0	Nein	Ja	Nein	Nein	Minumum value in a AC system = 100W to supply the UZK
+DSOCS	Entlademodus SOC Stop	leer	41	Zahl	Einstellwert	10	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+DSTH	Entlademodus Startzeit Stunde	leer	42	Zahl	Einstellwert	0	0	23	USHORT	PW1	Hour	2	0	Nein	Ja	Nein	Nein	leer
+DETM	Entlademodus Startzeit Minute	leer	43	Zahl	Einstellwert	0	0	59	USHORT	PW1	Minute	2	0	Nein	Ja	Nein	Nein	leer
+DSTH	Entlademodus Stopzeit Stunde	leer	44	Zahl	Einstellwert	0	0	23	USHORT	PW1	Hour	2	0	Nein	Ja	Nein	Nein	leer
+DETM	Entlademodus Stopzeit Minute	leer	45	Zahl	Einstellwert	0	0	59	USHORT	PW1	Minute	2	0	Nein	Ja	Nein	Nein	leer
+CMLA	Lademodus aktiviert	leer	46	Zahl	Einstellwert	1	0	1	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+CMLL	Lademodus Leistungslimit	leer	47	Zahl	Einstellwert	5000	0	5000	USHORT	PW1	Watt	5	0	Nein	Ja	Nein	Nein	leer
+CSOCS	Lademodus SOC Stop	leer	48	Zahl	Einstellwert	100	0	100	USHORT	PW4	Percent	3	0	Nein	Ja	Nein	Nein	leer
+CSTH	Lademodus Startzeit Stunde	leer	49	Zahl	Einstellwert	0	0	23	USHORT	PW1	Hour	2	0	Nein	Ja	Nein	Nein	leer
+CETM	Lademodus Startzeit Minute	leer	50	Zahl	Einstellwert	0	0	59	USHORT	PW1	Minute	2	0	Nein	Ja	Nein	Nein	leer
+CSTH	Lademodus Stopzeit Stunde	leer	51	Zahl	Einstellwert	23	0	23	USHORT	PW1	Hour	2	0	Nein	Ja	Nein	Nein	leer
+CETM	Lademodus Stopzeit Minute	leer	52	Zahl	Einstellwert	59	0	59	USHORT	PW1	Minute	2	0	Nein	Ja	Nein	Nein	leer
+BTYP	Batterie Typ	leer	64	Zahl	Einstellwert	MSEMF_BATTERY_TYPE_INITIAL	0	MSEMF_BATTERY_TYPE_MAX	USHORT	PW2	Without	3	0	Nein	Ja	Nein	Nein	leer
+EZWT	Wochentag	leer	65	Zahl	Einstellwert	0	0	6	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+STDW	Standardwerte setzen	leer	66	Zahl	Einstellwert	0	0	99	USHORT	PW1	Without	2	0	Nein	Nein	Nein	Nein	leer
+AOF1	Funktion Analoger Ausgang 1	leer	67	Zahl	Einstellwert	0	0	10	USHORT	PW1	Without	2	0	Nein	Ja	Nein	Nein	leer
+AOF2	Funktion Analoger Ausgang 2	leer	68	Zahl	Einstellwert	0	0	10	USHORT	PW1	Without	2	0	Nein	Ja	Nein	Nein	leer
+INITBTYP	Batterie Typ initialisieren	leer	71	Zahl	Einstellwert	0	0	1	USHORT	PW2	Without	1	0	Nein	Ja	Nein	Nein	leer
+T1	Testvariable 1	leer	80	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T2	Testvariable 2	leer	81	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T3	Testvariable 3	leer	82	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+PRT	Leistungsreduktions-Typ	leer	83	Zahl	Einstellwert	SM_PRT_PERMANENT_REDUCTION	SM_PRT_PERMANENT_REDUCTION	SM_PRT_EXTERNAL_REDUCTION	USHORT	PW3	Without	1	0	Nein	Ja	Nein	Nein	leer
+EPR	Externe Power Reduktion	leer	84	Zahl	Einstellwert	0	0	100	USHORT	PW3	Percent	3	0	Nein	Nein	Nein	Nein	leer
+PPR	Zugelassene Einspeiseleistung	leer	85	Zahl	Einstellwert	20000	0	20000	USHORT	PW3	Watt	5	0	Nein	Ja	Nein	Nein	leer
+PACNE	Nennleistung Externe Wechselrichter	leer	86	Zahl	Einstellwert	0	0	20000	USHORT	PW3	Watt	5	0	Nein	Ja	Nein	Nein	leer
+EH	Einschalt Hindernis	Hindernisgrund für das Einschalten	88	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+ASPP	Adresse SPP	leer	89	Zahl	Einstellwert	0	0	65535	USHORT	PW1	Without	5	0	Nein	Ja	Nein	Nein	leer
+EZS	Sekunde	leer	90	Zahl	Einstellwert	0	0	59	USHORT	PW0	Second	2	0	Nein	Nein	Nein	Nein	leer
+EZM	Minute	leer	91	Zahl	Einstellwert	0	0	59	USHORT	PW0	Minute	2	0	Nein	Nein	Nein	Nein	leer
+EZH	Stunde	leer	92	Zahl	Einstellwert	0	0	23	USHORT	PW0	Hour	2	0	Nein	Nein	Nein	Nein	leer
+EZT	Tag	leer	93	Zahl	Einstellwert	1	1	31	USHORT	PW0	Day	2	0	Nein	Nein	Nein	Nein	leer
+EZMO	Monat	leer	94	Zahl	Einstellwert	1	1	12	USHORT	PW0	Month	2	0	Nein	Nein	Nein	Nein	leer
+EZJ	Jahr	leer	95	Zahl	Einstellwert	2014	2014	2100	USHORT	PW0	Year	4	0	Nein	Nein	Nein	Nein	leer
+EZST	Zeit stellen	leer	96	Zahl	Einstellwert	0	0	20	USHORT	PW0	Without	2	0	Nein	Nein	Nein	Nein	leer
+DATUM	Datum	leer	97	Datum	Einstellwert	1012005	1012004	0x31122099	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+ZEIT	Zeit	leer	98	Zeit	Einstellwert	0	0	0x235959	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+SPR	Sprache	leer	99	Zahl	Einstellwert	0	0	(ANZAHL_SPRACHEN-1)	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+PCC	Portal Verbindungseinstellung	leer	100	Zahl	Einstellwert	0	0	(MPORT_CONN_DATA_TYPE_COUNT-1)	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+PPI	Portal Post-Intervall	leer	101	Zahl	Einstellwert	15	0	45	USHORT	PW4	Minute	2	0	Nein	Ja	Nein	Nein	leer
+SELERROUT	Fehlerausgabe Auswahl	leer	102	Zahl	Einstellwert	1	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Ja	Ja	Nein	Auswahl für die Fehlerausgabe zum Portal
+PORERR	Fehler zum Portal	leer	103	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Nein	Nein	Die Slaves schreiben hier Fehler rein, die zum Portal geschickt werden sollen.
+DNS2SERV	DNS Server 2	leer	105	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des 2. DNS Servers
+DNSSERV	DNS Server	leer	106	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des 1. DNS Servers
+GATEW	Gateway	leer	107	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige des Gateways
+SUBMASK	Subnetzmaske	leer	108	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	Anzeige der Subnetzmaske
+IPADR	IP-Adresse	leer	109	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	leer
+IPHH	IP-Adresse WR HH	leer	110	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+IPHL	IP-Adresse WR HL	leer	111	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+IPLH	IP-Adresse WR LH	leer	112	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+IPLL	IP-Adresse WR LL	leer	113	Zahl	Einstellwert	99	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SBHH	Subnetzmaske HH	leer	114	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SBHL	Subnetzmaske HL	leer	115	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SBLH	Subnetzmaske LH	leer	116	Zahl	Einstellwert	255	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SBLL	Subnetzmaske LL	leer	117	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SGHH	Standardgateway HH	leer	118	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SGHL	Standard_Gateway HL	leer	119	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SGLH	Standardgateway LH	leer	120	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+SGLL	Standardgateway LL	leer	121	Zahl	Einstellwert	1	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS1HH	DNS Server HH	leer	122	Zahl	Einstellwert	192	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS1HL	DNS Server HL	leer	123	Zahl	Einstellwert	168	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS1LH	DNS Server LH	leer	124	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS1LL	DNS Server LL	leer	125	Zahl	Einstellwert	2	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DHCP	DHCP aktiv	leer	126	Zahl	Einstellwert	DHCP_INACTIVE	DHCP_INACTIVE	DHCP_ACTIVE	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	Aktviiert den Bezug der IP über DHCP
+T4	Testvariable 4	leer	127	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T5	Testvariable 5	leer	128	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+FWV	Firmwarerelease	leer	129	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	9	0	Nein	Nein	Nein	Nein	leer
+SPO	Summenleistung Offset	leer	131	Zahl	Einstellwert	0	-5000	5000	LONG	PW4	Watt	4	0	Nein	Nein	Nein	Nein	Only for tests
+ERRT	Fehler heute	leer	141	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+UID	Unique ID	leer	142	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Ja	Ja	Nein	Nein	leer
+CANCONF	CAN Konfiguration	leer	143	Zahl	Einstellwert	MCAND_MASK_ALL_SEND_FUNCTION_ENABLED	0	0xFFFFFFFF	ULONG	PW4	Without	5	0	Nein	Ja	Nein	Nein	leer
+NFS	Black-Start Funktion starten	leer	144	Zahl	Einstellwert	0	0	1	USHORT	PW1	Without	1	0	Nein	Nein	Nein	Nein	leer
+ERRG	Fehler gesamt	leer	145	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Nein	leer
+GK	Geräteklasse	leer	147	Zahl	Einstellwert	GL_ZE_SEMX_DEVICE	GL_ZE_SES40DCS2	GL_ZE_SEMX_DEVICE	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+SN	Seriennummer	leer	148	Zahl	Einstellwert	ZE_DEFAULT_SN	1	65535	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+FWVO	Firmwarerelease Alt	leer	149	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	9	0	Nein	Nein	Nein	Nein	Old format (Without build number) -> Only for reverse compatibility
+DNS2HH	DNS Server2 HH	leer	152	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS2HL	DNS Server2 HL	leer	153	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS2LH	DNS Server2 LH	leer	154	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+DNS2LL	DNS Server2 LL	leer	155	Zahl	Einstellwert	0	0	255	USHORT	PW1	Without	3	0	Nein	Ja	Nein	Nein	leer
+T6	Testvariable 6	leer	156	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+T7	Testvariable 7	leer	157	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+BUILDD	Build Datum	leer	158	Zahl	Istwert	0	0	0	ULONG	PW4	Without	8	0	Ja	Nein	Nein	Nein	leer
+BUILDT	Build Zeit	leer	159	Zahl	Istwert	0	0	0	ULONG	PW4	Without	8	0	Ja	Nein	Nein	Nein	leer
+PVE	Parameter Version	leer	200	Zahl	Istwert	1	1	65535	USHORT	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+PVEA	Parameter Version Alt	leer	201	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	6	0	Ja	Ja	Nein	Nein	leer
+ESBWID	ES-Block-Write-Index Datalogger	leer	202	Zahl	Einstellwert	ES_GetStartBlockVariableEx(DatenloggerArea)	ES_GetStartBlockVariableEx(DatenloggerArea)	ES_GetEndblockEx(DatenloggerArea)	USHORT	PW4	Without	2	0	Nein	Ja	Nein	Nein	Enthält den Index des SPI-Datenblockes in dem der Eventspeicher (Datenloggerbreich) momentan arbeitet.
+ESWID	ES-Write-Index Datalogger	leer	203	Zahl	Einstellwert	0	0	(ES_SEKTOR_SIZE - 1)	ULONG	PW4	Without	5	0	Nein	Ja	Nein	Nein	Gibt den Seek der Eventspeichers (Datenloggerbreich) im jeweiligen SPI-Datenblock an
+MACL	MAC Adr Low	leer	204	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+MACM	MAC Adr Middle	leer	205	Zahl	Einstellwert	0xEC05	0	65535	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+MACH	MAC Adr High	leer	206	Zahl	Einstellwert	0x0021	0	65535	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+FABD	Fabrikationsdatum	leer	207	Zahl	Einstellwert	11	0	65535	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+PORT	SPP-Protokoll TCP-Port	leer	208	Zahl	Einstellwert	33330	1024	65535	USHORT	PW1	Without	5	0	Nein	Ja	Nein	Nein	leer
+ESBWIWS	ES-Block-Write-Index WarnStoer	leer	211	Zahl	Einstellwert	ES_GetStartBlockVariableEx(Warn_StoerArea)	ES_GetStartBlockVariableEx(Warn_StoerArea)	ES_GetEndblockEx(Warn_StoerArea)	USHORT	PW4	Without	2	0	Nein	Ja	Nein	Nein	Enthält den Index des SPI-Datenblockes in dem der Eventspeicher (Warn- und Störspeicherbereich) momentan arbeitet.
+ESWIWS	ES-Write-Index WarnStoer	leer	212	Zahl	Einstellwert	0	0	(ES_SEKTOR_SIZE - 1)	ULONG	PW4	Without	5	0	Nein	Ja	Nein	Nein	Gibt den Seek der Eventspeichers (Warn- und Störspeicherbereich) im jeweiligen SPI-Datenblock an
+ACSTAT	Zugangscode Status	leer	220	Zahl	Istwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Ja	Nein	leer
+EHST1	Statusbits Einschalthindernis 1	leer	222	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+EHST2	Statusbits Einschalthindernis 2	leer	223	Zahl	Istwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Ja	Nein	leer
+TPM	TestvariablePlusMinus	leer	237	Zahl	Einstellwert	0	-100000	100000	LONG	PW0	Without	7	0	Nein	Nein	Nein	Nein	leer
+CFGS	Spezialkonfiguration	leer	248	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Ja	Nein	leer
+LCODE	Ländercode	leer	249	Zahl	Einstellwert	100	0	100	USHORT	PW3	Without	3	0	Nein	Ja	Nein	Nein	leer
+PCODE	Produktionscode	leer	250	Zahl	Einstellwert	0	0	3	USHORT	PW4	Without	5	0	Ja	Ja	Nein	Nein	leer
+FLS	File Lese Select	leer	251	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Ja	leer
+DDU	Differenzdatei Datum Uhrzeit	leer	252	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Ja	leer
+CFG1	Konfiguration allgemein	leer	259	Zahl	Einstellwert	0	0	65535	USHORT	PW1	Without	5	0	Nein	Ja	Ja	Nein	leer
+FN	File Transfer Nummer	leer	260	Zahl	Einstellwert	0	0	FILES_MAX_FILE_NUMBER	USHORT	PW0	Without	2	0	Nein	Nein	Nein	Ja	leer
+FL	File Transfer Länge	leer	261	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+FLI	File Lese Inhalt	leer	262	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+FSI	File Schreibe Inhalt	leer	263	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Nein	leer
+FI	File Lese Index	leer	264	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	5	0	Nein	Nein	Nein	Ja	leer
+PRT	Passwort Reset-Zeit	leer	265	Zahl	Einstellwert	5	5	60	USHORT	PW4	Minute	2	0	Nein	Ja	Nein	Nein	leer
+AC1	Zugangscode	leer	267	Zahl	Einstellwert	0	0	999999	ULONG	PW1	Without	6	0	Nein	Ja	Nein	Ja	leer
+SRS	System Reset Stunde	leer	268	Zahl	Einstellwert	0	0	24	USHORT	PW4	Hour	2	0	Nein	Ja	Nein	Nein	leer
+FLIL	Datei Inhalt lang	leer	270	Zahl	Einstellwert	0	0	0	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Ja	leer
+SFVS	Slave Firmware Update Indikator	leer	271	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	2	0	Nein	Ja	Ja	Nein	leer
+HUPE	Hupe	leer	276	Zahl	Einstellwert	0	0	3	USHORT	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+BMSA	BMS aktiv	leer	277	Zahl	Einstellwert	MSEMF_NONE_BMS	MSEMF_NONE_BMS	MSEMF_BMS_ACTIVE	USHORT	PW2	Without	1	0	Nein	Ja	Nein	Nein	leer
+IBCHMAX	Batterie Ladestrom Maximalwert	leer	278	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW2	Ampere	3	2	Nein	Ja	Nein	Nein	leer
+IBDISMAX	Batterie Entladestrom Maximalwert	leer	279	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW2	Ampere	3	2	Nein	Ja	Nein	Nein	leer
+ICCVMIN	Ladestromabschaltung CV	leer	280	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW2	Ampere	3	2	Nein	Ja	Nein	Nein	leer
+BATKAPNENN	Batterie Nennkapazität	leer	281	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW2	Ampere Hour	5	0	Nein	Ja	Nein	Nein	leer
+BVSP	Batteriespannung Sollwert	leer	282	Zahl	Einstellwert	0	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVDSTA	Batteriespannung Start Entladen	leer	283	Zahl	Einstellwert	MSEMF_BATTERYVOLTAGE_INIT	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVDSTO	Batteriespannung Stop Entladen	leer	284	Zahl	Einstellwert	MSEMF_BATTERYVOLTAGE_INIT	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVLSSTA	Batteriespannung Start ZK Versorgung	leer	285	Zahl	Einstellwert	MSEMF_BATTERYVOLTAGE_INIT	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVLSSTO	Batteriespannung Stop ZK Versorgung	leer	286	Zahl	Einstellwert	MSEMF_BATTERYVOLTAGE_INIT	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVCSTOF	Batteriespannung Stop Laden schnell	leer	287	Zahl	Einstellwert	0	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVCSTOS	Batteriespannung Stop Laden langsam	leer	288	Zahl	Einstellwert	0	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+BVOSTO	Batteriespannung minimum Stop Betrieb	leer	289	Zahl	Einstellwert	MSEMF_BATTERYVOLTAGE_INIT	0	MSEMF_BATTERYVOLTAGE_MAX	USHORT	PW2	Volt	3	2	Nein	Ja	Nein	Nein	leer
+IBTE	Batterie Ladestrom Tiefentladung	leer	290	Zahl	Einstellwert	1000	0	0xFFFF	USHORT	PW2	Ampere	2	2	Nein	Ja	Nein	Nein	leer
+CAPMAX	Nutzbare Kapazität Max	leer	291	Zahl	Einstellwert	100	0	100	USHORT	PW2	Percent	3	0	Nein	Ja	Nein	Nein	leer
+CAPMIN	Nutzbare Kapazität Min	leer	292	Zahl	Einstellwert	0	0	100	USHORT	PW2	Percent	3	0	Nein	Ja	Nein	Nein	leer
+ESRB	Entlade Stromreduktionsbereich	leer	293	Zahl	Einstellwert	0	0	1000	USHORT	PW2	Volt	2	2	Nein	Ja	Nein	Nein	leer
+RESTCAP	Verbleibende Kapazität	leer	294	Zahl	Einstellwert	0	0	100	USHORT	PW2	Percent	3	0	Nein	Ja	Nein	Nein	leer
+DDD	Differenz Datei Start-Datum	leer	297	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW0	Without	8	0	Nein	Nein	Nein	Ja	leer
+V26GMP	Versorgung 26V Grid Manger Plus	leer	298	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V25DUZK	Versorgung 25V DCDC UZK	leer	299	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V24DBATT	Versorgung 24V DCDC BATT	leer	300	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V5Ref	Versorgung 5V Referenz	leer	301	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V3_3SUP	Versorgung 3V3	leer	302	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V5SUP	Versorgung 5V	leer	303	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V12SUP	Versorgung 12V	leer	304	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+V24SUP	Versorgung 24V 	leer	305	Zahl	Istwert	0	0	65535	USHORT	PW0	Volt	2	3	Nein	Nein	Nein	Nein	leer
+RADEX	Einstrahlung Extern	leer	306	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+TEX1	Temperatur Extern 1	leer	307	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TEX1T	Temperatur Extern 1 Sensor Typ	leer	308	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TEX1OM	Temperatur Extern 1 Offset Minus	leer	309	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TEX1OP	Temperatur Extern 1 Offset Plus	leer	310	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TEX2	Temperatur Extern 2	leer	311	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TEX2T	Temperatur Extern 2 Sensor Typ	leer	312	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TEX2OM	Temperatur Extern 2 Offset Minus	leer	313	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TEX2OP	Temperatur Extern 2 Offset Plus	leer	314	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TEX3	Temperatur Extern 3	leer	315	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TEX3T	Temperatur Extern 3 Sensor Typ	leer	316	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TEX3OM	Temperatur Extern 3 Offset Minus	leer	317	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TEX3OP	Temperatur Extern 3 Offset Plus	leer	318	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TAMB	Temperatur Umgebung	leer	319	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TAMBT	Temperatur Umgebung Sensor Typ	leer	320	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TAMBOM	Temperatur Umgebung Offset Minus	leer	321	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TAMBOP	Temperatur Umgebung Offset Plus	leer	322	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TPV	Temperatur PV	leer	323	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TPVT	Temperatur PV Sensor Typ	leer	324	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TPVOM	Temperatur PV Offset Minus	leer	325	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TPVOP	Temperatur PV Offset Plus	leer	326	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TRAD	Temperatur Einstrahlung	leer	327	Zahl	Istwert	0	-32768	32767	SHORT	PW0	Degree celsius	4	0	Nein	Nein	Nein	Nein	leer
+TRADT	Temperatur Einstrahlung Sensor Typ	leer	328	Zahl	Einstellwert	0	0	2	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	leer
+TRADOM	Temperatur Einstrahlung Offset Minus	leer	329	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+TRADOP	Temperatur Einstrahlung Offset Plus	leer	330	Zahl	Einstellwert	0	0	1024	USHORT	PW1	Without	4	0	Nein	Ja	Nein	Nein	leer
+AIN1	Analog In 1	leer	331	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+AIN2	Analog In 2	leer	332	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+LANGCODE	Sprachenkennung	leer	352	Zahl	Istwert	0	0	0	ULONG	PW0	Without	10	0	Nein	Nein	Nein	Nein	leer
+SPIBV	Eventspeicher-Version	leer	361	Zahl	Istwert	0	0	255	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+LCDKON	LCD Kontrast	leer	364	Zahl	Einstellwert	4	1	4	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	Beinhaltet die Kontrastintensitaet des Displays
+LCDBEL	LCD Beleuchtung	leer	365	Zahl	Einstellwert	4	1	8	USHORT	PW1	Without	1	0	Nein	Ja	Nein	Nein	Beinhaltet die Beleuchtungsintensitaet des Displays
+IC	Installateurcode	leer	381	Zahl	Einstellwert	0	0	65535	USHORT	PW2	Without	5	0	Nein	Ja	Nein	Nein	leer
+PW3RT	PW3-Resttage	leer	382	Zahl	Einstellwert	-11	-11	31	SHORT	PW4	Without	3	0	Nein	Ja	Nein	Nein	leer
+PW3	PW3-Eingabe	leer	383	Zahl	Einstellwert	0	0	999999	ULONG	PW0	Without	6	0	Nein	Nein	Nein	Ja	leer
+DLOP	Datenlogger Operation	leer	411	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLSTAT	Datenlogger Status	leer	412	Zahl	Istwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLPONR	Datenlogger Poolnummer	leer	413	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLPANR	Datenlogger Parameternummer	leer	414	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLINT	Datenlogger Logintervall	leer	415	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+DLART	Datenlogger Logart	leer	416	Zahl	Einstellwert	0	0	65535	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+HD	Hardware User Disable	leer	417	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Ja	Ja	Nein	Über diesen Parameter können die Hardwarekomponenten disabled werden
+HSR	Hardware Selftest Result	leer	418	Zahl	Istwert	0	0	65535	USHORT	PW3	Without	5	0	Nein	Nein	Ja	Nein	Dieser Parameter enthält das Ergebnis des Buildin-Selftests
+TC	Time Calibration	leer	419	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Nein	Nein	Nein	Nein	Dieser Parameter dient zur Zeitkunfiguration des Semx-Komponente. Die Konfiguration erfolgt über die Sekundendifferenz seit 2014. Schaltjahre werden nicht berücksichtigt -> Reiner abgleich der Zeitparameter
+LF	Letzter Fehler	leer	420	Zahl	Einstellwert	0	0	999	USHORT	PW4	Without	3	0	Nein	Nein	Nein	Nein	leer
+FRAMSIG	FRAM Signatur	leer	421	Zahl	Einstellwert	0x9A56FC03	0	0xFFFFFFFF	ULONG	PW4	Without	10	0	Ja	Ja	Nein	Nein	leer
+FWSIG	Firmware Signatur	leer	422	Zahl	Istwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Nein	Nein	leer
+TESTPROD	Testmode Produktion	leer	423	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Nein	Testmode für Produktion
+TMPKEY	TMP Tasteneingabe	leer	424	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW0	Without	5	0	Nein	Nein	Ja	Nein	Darstellung der Tasten für Produktion
+PLT	Plot Typ	leer	425	Zahl	Einstellwert	0	0	MSEMF_countOfPlotTypes	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Nein	leer
+PLE	Plot Event	leer	426	Zahl	Einstellwert	0	0	MSEMF_countOfPlotEvents	USHORT	PW4	Without	5	0	Nein	Ja	Nein	Nein	leer
+PLCMD	Plot Kommando	leer	427	Zahl	Einstellwert	0	0	MSEMF_countOfPlotCommands	USHORT	PW4	Without	10	0	Nein	Nein	Nein	Nein	leer
+PLSTAT	Plot Status	leer	428	Zahl	Einstellwert	0	0	MSEMF_countOfPlotStatus	USHORT	PW4	Without	1	0	Nein	Nein	Nein	Nein	leer
+PLA	Plot Attribut	leer	429	Zahl	Einstellwert	0	0x80000000	0x7FFFFFFF	LONG	PW4	Without	10	0	Nein	Ja	Nein	Nein	leer
+PT	Plot Zeit	leer	430	Zahl	Einstellwert	0	0	0xFFFFFFFF	ULONG	PW4	Second	10	0	Nein	Ja	Nein	Nein	leer
+TRIGPAR	Trigger für Init Parameter	leer	437	Zahl	Einstellwert	0	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Ja	Ja	Nein	Trigger (bitcodiert) für die Übertragung der Init-Parameter
+TSS	Temporäre SEMX Variable	leer	438	Zahl	Einstellwert	0	0	65535	USHORT	PW4	Without	5	0	Nein	Nein	Ja	Nein	This variable contain temporary SEMX info/control bits
+HBIT	Heartbeat Init Time	leer	439	Zahl	Einstellwert	1	0	65535	USHORT	PW2	Without	5	0	Nein	Ja	Nein	Nein	leer
+HBTO	Heartbeat Intervall Timeout	leer	440	Zahl	Einstellwert	3	0	65535	USHORT	PW2	Without	5	0	Nein	Ja	Nein	Nein	leer
+HBIS	Heartbeat Intervall Send	leer	441	Zahl	Einstellwert	1	0	65535	USHORT	PW2	Without	5	0	Nein	Ja	Nein	Nein	leer
+HBCNT	Heartbeat	leer	442	Zahl	Einstellwert	0	0	0	USHORT	PW2	Without	5	0	Nein	Nein	Ja	Nein	leer
+EMSCMD	EMS Kommando	leer	443	Zahl	Einstellwert	0	0	0xFFFF	ULONG	PW0	Without	1	0	Nein	Nein	Nein	Nein	leer
+SETUP	Setup erforderlich	leer	444	Zahl	Einstellwert	SETUP_ACTIVE	SETUP_DONE	SETUP_ACTIVE	USHORT	PW3	Without	1	0	Nein	Ja	Nein	Nein	leer
+FP	Flash Erlaubnis	leer	481	Zahl	Einstellwert	0	0	4	ULONG	PW4	Without	1	0	Nein	Ja	Nein	Nein	leer
+DCONF	EMS Konfiguration	leer	482	Zahl	Einstellwert	(EmsSystemMemberBitMask | HeartbeatOperationSupervisionBitMask)	0	0xFFFF	USHORT	PW4	Without	5	0	Nein	Ja	Ja	Nein	EMS Konfigurationen können hier vorgenommen werden
+LCDV	LCD-Version	leer	493	Zahl	Istwert	0	0	255	USHORT	PW0	Without	3	0	Nein	Nein	Nein	Nein	leer
+SRE	System Reset Ausgeführt	leer	494	Zahl	Einstellwert	1	0	1	USHORT	PW4	Without	1	0	Nein	Ja	Nein	Nein	leer
+

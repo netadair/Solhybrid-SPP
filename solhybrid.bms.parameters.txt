@@ -1,0 +1,142 @@
+Kurzbezeichnung	Text	Hilfetext	Nummer	Typ	Einstellwert	Initial	Minimum	Maximum	Variablen_Typ	Passwort	Einheit	Vorkomma	Nachkomma	Not delete by P66 function	Non-Volatile	Bitfield	FW_Kommentar
+VOLTAGE_CELL_01	Voltage of one single cell #1	leer	1	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_02	Voltage of one single cell #2	leer	2	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_03	Voltage of one single cell #3	leer	3	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_04	Voltage of one single cell #4	leer	4	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_05	Voltage of one single cell #5	leer	5	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_06	Voltage of one single cell #6	leer	6	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_07	Voltage of one single cell #7	leer	7	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_08	Voltage of one single cell #8	leer	8	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_09	Voltage of one single cell #9	leer	9	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_10	Voltage of one single cell #10	leer	10	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_11	Voltage of one single cell #11	leer	11	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_12	Voltage of one single cell #12	leer	12	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_13	Voltage of one single cell #13	leer	13	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_14	Voltage of one single cell #14	leer	14	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_15	Voltage of one single cell #15	leer	15	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_16	Voltage of one single cell #16	leer	16	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_HIGH	Maximal cell voltage of all cells (#1-#16)	leer	17	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_CELL_LOW	Minimal cell voltage of all cells (#1-#16)	leer	18	Zahl	Istwert	0	0	0	SHORT	PW0	Volt	10	3	Nein	Nein	Nein	leer
+VOLTAGE_BATTERY_CELLS	Sum of all single cell Voltages (#1- #16)	leer	20	Zahl	Istwert	0	0	0	LONG	PW0	Volt	10	3	Nein	Nein	Nein	leer
+STATUS	BMS-Status	0 = Initializing, 1 = Initialisation_Done, 2 = Ready,  3 = Operating, 4 = Relais_Test,5 = Error (see Par. #152 ), 6 = Fatal_Error (see Par. #152, #153 )	32	Zahl	Istwert	0	0	0	ULONG	PW0	Without	1	0	Nein	Nein	Nein	leer
+ERROR_ACK	(unused)	leer	33	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+ERROR_KEEP	(unused)	leer	34	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TIME_WAIT_READ	Timeout communication error	Zeit bis Error  "No_Valid_Communication" eintritt	35	Zahl	Istwert	12	0	0	ULONG	PW0	100ms	10	0	Nein	Nein	Nein	leer
+TIME_WAIT_OFF	(unused)	leer	36	Zahl	Istwert	0	0	0	ULONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEMPERATURE_PCB_01	NTC-Temperature on PCB	leer	38	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CHIP_01	Internal temperature of LTC0-chip	leer	39	Zahl	Istwert	0	0	0	SHORT	PW0	Degree celcius	10	0	Nein	Nein	Nein	leer
+TEMPERATURE_CHIP_02	Internal temperature of LTC1-chip	leer	40	Zahl	Istwert	0	0	0	SHORT	PW0	Degree celcius	10	0	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_01	Temperature between Cell 1 and Cell 2	leer	41	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_02	Temperature between Cell 2 and Cell 3	leer	42	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_03	Temperature between Cell 3 and Cell 4	leer	43	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_04	(unused since 99.82_2017-01-11, always 9.9°C )	leer	44	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_05	Temperature between Cell 5 and Cell 6	leer	45	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_06	Temperature between Cell 6 and Cell 7	leer	46	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_07	Temperature between Cell 7 and Cell 8	leer	47	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_09	Temperature between Cell 9 and Cell 10	leer	48	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_10	Temperature between Cell 10 and Cell 11	leer	49	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_11	Temperature between Cell 11 and Cell 12	leer	50	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_12	(unused since 99.82_2017-01-11, always 9.9°C )	leer	51	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_13	Temperature between Cell 13 and Cell 14	leer	52	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_14	Temperature between Cell 14 and Cell 15	leer	53	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_15	Temperature between Cell 15 and Cell 16	leer	54	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_MIN	Maximum of all temperatures #41 - #54	leer	55	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+TEMPERATURE_CELL_MAX	Minimum of all temperatures #41 - #54	leer	56	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+CELL_IMP_EMP	(unused)	leer	58	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+DUMMY_BATTERY_STATE	(for debugging only)	compiler-switch DEBUG_EMULATE_INPUT	59	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+MAX_CHARGING_CURRENT	Maximum of allowed charging current	leer	60	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+MAX_DISCHARGING_CURRENT	Maximum of allowed discharging current	leer	61	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+CURRENTLIMIT_TYPE	(for debugging)	leer	62	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+MAX_CHARGE_DISCHARGE_STATUS	(Pseudo parameter for concurrent reading…	...of parameter #32, #60, #61, #99 and #146. See 5.5.2	63	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EMERGENCY_CHARGE	Emergency charge	Writing value 47701 to this parameter activates Emergency	64	Zahl	Einstellwert	0	0	0	LONG	PW3	Without	10	0	Nein	Nein	Nein	leer
+DELETE	(unused)	Charge	66	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+BALANCING	Balancing active	Die Bits b0..b15 sind Flags, die das Balancing der 16 Zellen anzeigen	67	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Ja	leer
+BALANCE_ACTIVE	Maximum of active balanced cells	Maximale Anzahl Zellen an denen gleichzeitig Balancing aktiv ist	68	Zahl	Istwert	4	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+BALANCE_START	Minimum voltage difference for starting balancing	Mindest-Spannungsdifferenz zur niedrigsten Zellspannung, damit Balancing aktiv wird.	69	Zahl	Istwert	40	0	0	LONG	PW0	Volt	10	3	Nein	Nein	Nein	leer
+IMP_CELL_01	Calculated internal resistance of cell #1	leer	71	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_02	Calculated internal resistance of cell #2	leer	72	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_03	Calculated internal resistance of cell #3	leer	73	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_04	Calculated internal resistance of cell #4	leer	74	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_05	Calculated internal resistance of cell #5	leer	75	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_06	Calculated internal resistance of cell #6	leer	76	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_07	Calculated internal resistance of cell #7	leer	77	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_08	Calculated internal resistance of cell #8	leer	78	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_09	Calculated internal resistance of cell #9	leer	79	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_10	Calculated internal resistance of cell #10	leer	80	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_11	Calculated internal resistance of cell #11	leer	81	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_12	Calculated internal resistance of cell #12	leer	82	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_13	Calculated internal resistance of cell #13	leer	83	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_14	Calculated internal resistance of cell #14	leer	84	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_15	Calculated internal resistance of cell #15	leer	85	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_CELL_16	Calculated internal resistance of cell #16	leer	86	Zahl	Istwert	0	0	0	LONG	PW0	Ohm	10	3	Nein	Nein	Nein	leer
+IMP_MEAS_CNT	Counter for passiv measurements of cell impedances	(used to detect new measurements)	87	Zahl	Istwert	1	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+SPP_ADDRESS	CAN-address in SPP-Protocol	(always 5)	89	Zahl	Istwert	5	5	5	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+T_LIMIT_TEMP	(debugging)	leer	90	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_LIMIT_CV	(debugging)	leer	91	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_LIMIT_DERATE	(debugging)	leer	92	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_LIMIT_JUMP_CHG	(debugging)	leer	93	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_CORR_I_CHG	(debugging)	leer	94	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_LIMIT_JUMP_DCHG	(debugging)	leer	95	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_CORR_I_DCHG	(debugging)	leer	96	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+T_97	(debugging)	leer	97	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+STATE_OF_CHARGE	SOC (State of charge)	Refers to rated capacity (see DEVICE_CLASS/#147)	99	Zahl	Istwert	0	0	0	LONG	PW0	Percent	10	0	Nein	Nein	Nein	leer
+FUG_U	Battery voltage (measured by FUG-chip)	leer	100	Zahl	Istwert	0	0	0	LONG	PW0	Volt	10	3	Nein	Nein	Nein	leer
+FUG_I	Charge or discharge current at external  - connector	< 0 → discharging, > 0 → charging	101	Zahl	Istwert	0	0	0	LONG	PW0	Ampere	10	2	Nein	Nein	Nein	leer
+FUG_AV_I	Average Current	leer	102	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+FUG_TEMP	Temperature for FUG use	leer	103	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+FUG_SoC	SoC as calculated by FuG	leer	104	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+FUG_RemCap	Remaining Capacity	leer	105	Zahl	Istwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+FUG_FullCC	Full Charge Capacity	leer	106	Zahl	Istwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+FUG_MaxErr	Error margin in SOC	leer	107	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+FUG_FLAGS	Fuel gauge flags	leer	108	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Ja	leer
+FUG_FLAGSB	Fuel gauge flags 2	leer	109	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Ja	leer
+EXT_ADC_2V5	Voltage at internal 2.5V-reference	leer	110	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_K1_DIFF	Measured voltage over relais contacts	leer	111	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_VPACK	Voltage at external  - connector	leer	112	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_VBATT	Battery voltage (second measurement, see #20 and #100)	leer	113	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_VDD	Voltage at internal 5V-supply	leer	114	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_12V	Voltage at internal 12V-supply	leer	115	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_ISO	(reserved)	leer	116	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+EXT_ADC_3V3	Voltage at internal 3.3V-supply	leer	117	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+Q_BAT	Batteries accumulated amount of electrical charge	Base for State_of_Charge/#99	125	Zahl	Istwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+Q_BAT_SET	Sets parameter Q_BAT/#125, when Q_BAT_SET != 0 .	Refers to rated capacity (see DEVICE_CLASS/#147	126	Zahl	Einstellwert	0	0	0	LONG	PW0	Percent	10	0	Nein	Nein	Nein	leer
+BAT_CAP_EFF	Effective capacity of the battery	 (not yet implemented)	127	Zahl	Istwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Ja	Nein	leer
+FW_RELEASE	Version number of software	 in 3 dimensions (Major.Minor.Patch) but as an unsigned integer . -> 00.00.00 to 99.99.99  0 to 999999 )	129	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+Q_BATS	Value of Q_BAT/#125	stored in non-volatile FRAM	130	Zahl	Einstellwert	0	0	0	LONG	PW0	Ampere second	10	2	Nein	Ja	Nein	leer
+Q_BATS_INV	Checksum	(checksum for #130)	131	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Ja	Nein	leer
+Q_BATS_TimeStamp	Timestamp	(see #156) when Q_BATS/#130 was written lastly	132	Zahl	Einstellwert	0	0	0	ULONG	PW0	Seconds	10	0	Nein	Nein	Nein	leer
+ERROR_TOTAL	Error total	leer	145	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+LAST_ERROR	Last occurred error.	When P#32 ≠ 5(ERROR) and P#32 ≠ 6(FATAL_ERROR) then LAST_ERROR is not pending. See chapter 5.5.2	146	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+DEVICE_CLASS	SPICA30/SPICA50	10000 = SPICA30 (60 Ah), 10001 = SPICA50 (100 Ah)	147	Zahl	Einstellwert	0	0	0	ULONG	PW0	Without	10	0	Nein	Ja	Nein	leer
+SERIAL_NUMBER	Serial number as signed integer	leer	148	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Ja	Nein	leer
+FW_RELEASE_OLD	(unused)	(reserved for SW-version number of old devices, unused here)	149	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+LAST_ERROR_ARG_1	(for debugging only)	leer	150	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+LAST_ERROR_ARG_2	(for debugging only)	leer	151	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+ERROR_LEVEL	Error-Level	1 = Warning, 2 = Error (self-recoverable), 3 = Fatal Error (not self-recoverable)	152	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+FATAL_KEEP	Last Error (P#146) with Error-Level = 3 is stored here	Flag “Special-Write” is set to reactivate a stored fatal error after PowerUp and during initialization. Writing 0 to #153 recovers a pending Fatal Error.	153	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+NN	(reserved)	leer	154	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+NN	(reserved)	leer	155	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TIME_FROM_MASTER	Time from Master.	Seconds since 1.1.2014, 00:00 Uhr. Is written by master at PowerUp of BMS and every ¼ hour.	156	Zahl	Einstellwert	0	0	0	LONG	PW0	Seconds	10	0	Nein	Nein	Nein	leer
+LAST_WARNING	Like LAST_ERROR/#146 but for level Warning	leer	157	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B1_SOCC_BatStat	(debugging, SOCC_BatStat)	leer	201	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B2_SOCC_State	(debugging, SOCC_State)	leer	202	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B3_SOCC	(debugging SOCC)	80 = SOCC blockiert Laden, 1 = SOCC blockiert Entladen, 0 = SOCC blockiert weder Laden noch Entladen	203	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B4_Recalib_cycles	Anzahl an Zyklen seit letztem Rekalibrieren	(debugging)	204	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B5_MaxDis_noSOCC	Par. #61 (Max. Discharging) ohne Beeinflussung durch SOCC	(debugging)	205	Zahl	Einstellwert	0	0	0	LONG	PW0	Ampere	10	0	Nein	Nein	Nein	leer
+TEST_B6_LastQBat_Grenze	letztes QBat beim Erreichen der oberen oder unteren Grenze	debugging	206	Zahl	Einstellwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+TEST_B7	(unused)	leer	207	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B8_VisBal1_4	(debugging, visualisiertes Balancing, Zelle 1-4)	leer	208	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B9_VisBal5_8	(debugging, visualisiertes Balancing, Zelle 5-8)	leer	209	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B10_VisBal9_12	(debugging, visualisiertes Balancing, Zelle 9-12)	leer	210	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B11_VisBal13_16	(debugging, visualisiertes Balancing, Zelle 13-16)	leer	211	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B12_E_Charge	(debugging, Energiemengenzähler, Laden)	leer	212	Zahl	Einstellwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+TEST_B13_E_Discharge	(debugging, Energiemengenzähler, Entladen)	leer	213	Zahl	Einstellwert	0	0	0	LONG	PW0	Ampere hour	10	1	Nein	Nein	Nein	leer
+TEST_B14_Time_Mainloop	(debugging, maximale Durchlaufzeit der Mainloop)	leer	214	Zahl	Einstellwert	0	0	0	LONG	PW0	0.5ms	10	0	Nein	Nein	Nein	leer
+TEST_B15_LTC_Initcount	(debugging, Anzahl an Initialisierungsversuchen für den LTC)	leer	215	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST_B16_General	(debugging, allgemein )	leer	216	Zahl	Einstellwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+NN	(reserved)	leer	221	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+NN	(reserved)	leer	222	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+SPEC	Config	Bit b0 ( 1 ) is set - switch balancing on, manually; Bit b2 ( 4 ) is set - SOCC disabled. SOC=50%, always ! ;Bit b7 (128) is set - Power off	248	Zahl	Istwert	0	0	0	LONG	PW0	Without	10	0	Nein	Nein	Nein	leer
+TEST1_SetCell1Temp	Sets measured voltage of Cell 1 to value of TEST1, when TEST1 ≠ 0	leer	250	Zahl	Istwert	0	0	0	LONG	PW0	Volt	10	3	Nein	Nein	Nein	leer
+TEST2_SetCellDiffTemp	Sets measured Temperature between cell 1 and cell 2 to value of TEST2, when TEST2 ≠ 0	leer	251	Zahl	Istwert	0	0	0	LONG	PW0	Degree celcius	10	1	Nein	Nein	Nein	leer
+
